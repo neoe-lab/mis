@@ -2,37 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-    <meta name="description" content="Smarthr - Bootstrap Admin Template">
-    <meta name="keywords" content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern, accounts, invoice, html5, responsive, CRM, Projects">
-    <meta name="author" content="Dreamguys - Bootstrap Admin Template">
-    <meta name="robots" content="noindex, nofollow">
-    <title>Dashboard - HRMS admin template</title>
+    
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
-    <!-- Fontawesome CSS -->
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-
-    <!-- Lineawesome CSS -->
-    <link rel="stylesheet" href="assets/css/line-awesome.min.css">
-
-    <!-- Chart CSS -->
-    <link rel="stylesheet" href="assets/plugins/morris/morris.css">
-
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-			<script src="assets/js/html5shiv.min.js"></script>
-			<script src="assets/js/respond.min.js"></script>
-		<![endif]-->
+  
 </head>
 
 <body>
@@ -52,9 +24,9 @@
 
             <a id="toggle_btn" href="javascript:void(0);">
                 <span class="bar-icon">
-						<span></span>
-                <span></span>
-                <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </span>
             </a>
 
@@ -121,11 +93,14 @@
                                     <a href="activities.html">
                                         <div class="media">
                                             <span class="avatar">
-													<img alt="" src="assets/img/profiles/avatar-02.jpg">
-												</span>
+                                                <img alt="" src="assets/img/profiles/avatar-02.jpg">
+                                            </span>
                                             <div class="media-body">
-                                                <p class="noti-details"><span class="noti-title">John Doe</span> added new task <span class="noti-title">Patient appointment booking</span></p>
-                                                <p class="noti-time"><span class="notification-time">4 mins ago</span></p>
+                                                <p class="noti-details"><span class="noti-title">John Doe</span> added
+                                                    new task <span class="noti-title">Patient appointment
+                                                        booking</span></p>
+                                                <p class="noti-time"><span class="notification-time">4 mins ago</span>
+                                                </p>
                                             </div>
                                         </div>
                                     </a>
@@ -134,11 +109,15 @@
                                     <a href="activities.html">
                                         <div class="media">
                                             <span class="avatar">
-													<img alt="" src="assets/img/profiles/avatar-03.jpg">
-												</span>
+                                                <img alt="" src="assets/img/profiles/avatar-03.jpg">
+                                            </span>
                                             <div class="media-body">
-                                                <p class="noti-details"><span class="noti-title">Tarah Shropshire</span> changed the task name <span class="noti-title">Appointment booking with payment gateway</span></p>
-                                                <p class="noti-time"><span class="notification-time">6 mins ago</span></p>
+                                                <p class="noti-details"><span class="noti-title">Tarah
+                                                        Shropshire</span> changed the task name <span
+                                                        class="noti-title">Appointment booking with payment
+                                                        gateway</span></p>
+                                                <p class="noti-time"><span class="notification-time">6 mins ago</span>
+                                                </p>
                                             </div>
                                         </div>
                                     </a>
@@ -147,11 +126,15 @@
                                     <a href="activities.html">
                                         <div class="media">
                                             <span class="avatar">
-													<img alt="" src="assets/img/profiles/avatar-06.jpg">
-												</span>
+                                                <img alt="" src="assets/img/profiles/avatar-06.jpg">
+                                            </span>
                                             <div class="media-body">
-                                                <p class="noti-details"><span class="noti-title">Misty Tison</span> added <span class="noti-title">Domenic Houston</span> and <span class="noti-title">Claire Mapes</span> to project <span class="noti-title">Doctor available module</span></p>
-                                                <p class="noti-time"><span class="notification-time">8 mins ago</span></p>
+                                                <p class="noti-details"><span class="noti-title">Misty Tison</span>
+                                                    added <span class="noti-title">Domenic Houston</span> and <span
+                                                        class="noti-title">Claire Mapes</span> to project <span
+                                                        class="noti-title">Doctor available module</span></p>
+                                                <p class="noti-time"><span class="notification-time">8 mins ago</span>
+                                                </p>
                                             </div>
                                         </div>
                                     </a>
@@ -160,11 +143,14 @@
                                     <a href="activities.html">
                                         <div class="media">
                                             <span class="avatar">
-													<img alt="" src="assets/img/profiles/avatar-17.jpg">
-												</span>
+                                                <img alt="" src="assets/img/profiles/avatar-17.jpg">
+                                            </span>
                                             <div class="media-body">
-                                                <p class="noti-details"><span class="noti-title">Rolland Webber</span> completed task <span class="noti-title">Patient and Doctor video conferencing</span></p>
-                                                <p class="noti-time"><span class="notification-time">12 mins ago</span></p>
+                                                <p class="noti-details"><span class="noti-title">Rolland Webber</span>
+                                                    completed task <span class="noti-title">Patient and Doctor video
+                                                        conferencing</span></p>
+                                                <p class="noti-time"><span class="notification-time">12 mins
+                                                        ago</span></p>
                                             </div>
                                         </div>
                                     </a>
@@ -173,11 +159,14 @@
                                     <a href="activities.html">
                                         <div class="media">
                                             <span class="avatar">
-													<img alt="" src="assets/img/profiles/avatar-13.jpg">
-												</span>
+                                                <img alt="" src="assets/img/profiles/avatar-13.jpg">
+                                            </span>
                                             <div class="media-body">
-                                                <p class="noti-details"><span class="noti-title">Bernardo Galaviz</span> added new task <span class="noti-title">Private chat module</span></p>
-                                                <p class="noti-time"><span class="notification-time">2 days ago</span></p>
+                                                <p class="noti-details"><span class="noti-title">Bernardo
+                                                        Galaviz</span> added new task <span class="noti-title">Private
+                                                        chat module</span></p>
+                                                <p class="noti-time"><span class="notification-time">2 days ago</span>
+                                                </p>
                                             </div>
                                         </div>
                                     </a>
@@ -208,14 +197,15 @@
                                         <div class="list-item">
                                             <div class="list-left">
                                                 <span class="avatar">
-														<img alt="" src="assets/img/profiles/avatar-09.jpg">
-													</span>
+                                                    <img alt="" src="assets/img/profiles/avatar-09.jpg">
+                                                </span>
                                             </div>
                                             <div class="list-body">
                                                 <span class="message-author">Richard Miles </span>
                                                 <span class="message-time">12:28 AM</span>
                                                 <div class="clearfix"></div>
-                                                <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                                <span class="message-content">Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing</span>
                                             </div>
                                         </div>
                                     </a>
@@ -225,14 +215,15 @@
                                         <div class="list-item">
                                             <div class="list-left">
                                                 <span class="avatar">
-														<img alt="" src="assets/img/profiles/avatar-02.jpg">
-													</span>
+                                                    <img alt="" src="assets/img/profiles/avatar-02.jpg">
+                                                </span>
                                             </div>
                                             <div class="list-body">
                                                 <span class="message-author">John Doe</span>
                                                 <span class="message-time">6 Mar</span>
                                                 <div class="clearfix"></div>
-                                                <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                                <span class="message-content">Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing</span>
                                             </div>
                                         </div>
                                     </a>
@@ -242,14 +233,15 @@
                                         <div class="list-item">
                                             <div class="list-left">
                                                 <span class="avatar">
-														<img alt="" src="assets/img/profiles/avatar-03.jpg">
-													</span>
+                                                    <img alt="" src="assets/img/profiles/avatar-03.jpg">
+                                                </span>
                                             </div>
                                             <div class="list-body">
                                                 <span class="message-author"> Tarah Shropshire </span>
                                                 <span class="message-time">5 Mar</span>
                                                 <div class="clearfix"></div>
-                                                <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                                <span class="message-content">Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing</span>
                                             </div>
                                         </div>
                                     </a>
@@ -259,14 +251,15 @@
                                         <div class="list-item">
                                             <div class="list-left">
                                                 <span class="avatar">
-														<img alt="" src="assets/img/profiles/avatar-05.jpg">
-													</span>
+                                                    <img alt="" src="assets/img/profiles/avatar-05.jpg">
+                                                </span>
                                             </div>
                                             <div class="list-body">
                                                 <span class="message-author">Mike Litorus</span>
                                                 <span class="message-time">3 Mar</span>
                                                 <div class="clearfix"></div>
-                                                <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                                <span class="message-content">Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing</span>
                                             </div>
                                         </div>
                                     </a>
@@ -276,14 +269,15 @@
                                         <div class="list-item">
                                             <div class="list-left">
                                                 <span class="avatar">
-														<img alt="" src="assets/img/profiles/avatar-08.jpg">
-													</span>
+                                                    <img alt="" src="assets/img/profiles/avatar-08.jpg">
+                                                </span>
                                             </div>
                                             <div class="list-body">
                                                 <span class="message-author"> Catherine Manseau </span>
                                                 <span class="message-time">27 Feb</span>
                                                 <div class="clearfix"></div>
-                                                <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                                <span class="message-content">Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing</span>
                                             </div>
                                         </div>
                                     </a>
@@ -300,7 +294,7 @@
                 <li class="nav-item dropdown has-arrow main-drop">
                     <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
                         <span class="user-img"><img src="assets/img/profiles/avatar-21.jpg" alt="">
-							<span class="status online"></span></span>
+                            <span class="status online"></span></span>
                         <span>Soeng Souy</span>
                     </a>
                     <div class="dropdown-menu">
@@ -314,7 +308,8 @@
 
             <!-- Mobile Menu -->
             <div class="dropdown mobile-user-menu">
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i
+                        class="fa fa-ellipsis-v"></i></a>
                 <div class="dropdown-menu dropdown-menu-right">
                     <a class="dropdown-item" href="profile.html">My Profile</a>
                     <a class="dropdown-item" href="settings.html">Settings</a>
@@ -331,287 +326,14 @@
             <div class="sidebar-inner slimscroll">
                 <div id="sidebar-menu" class="sidebar-menu">
                     <ul>
-                        <li class="menu-title">
-                            <span>Main</span>
-                        </li>
                         <li class="submenu">
-                            <a href="#"><i class="la la-dashboard"></i> <span> Dashboard</span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="la la-dashboard"></i> <span> Dashboard</span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="active" href="index.html">Admin Dashboard</a></li>
                                 <li><a href="employee-dashboard.html">Employee Dashboard</a></li>
                             </ul>
-                        </li>
-                        <li class="submenu">
-                            <a href="#"><i class="la la-cube"></i> <span> Apps</span> <span class="menu-arrow"></span></a>
-                            <ul style="display: none;">
-                                <li><a href="chat.html">Chat</a></li>
-                                <li class="submenu">
-                                    <a href="#"><span> Calls</span> <span class="menu-arrow"></span></a>
-                                    <ul style="display: none;">
-                                        <li><a href="voice-call.html">Voice Call</a></li>
-                                        <li><a href="video-call.html">Video Call</a></li>
-                                        <li><a href="outgoing-call.html">Outgoing Call</a></li>
-                                        <li><a href="incoming-call.html">Incoming Call</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="events.html">Calendar</a></li>
-                                <li><a href="contacts.html">Contacts</a></li>
-                                <li><a href="inbox.html">Email</a></li>
-                                <li><a href="file-manager.html">File Manager</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-title">
-                            <span>Employees</span>
-                        </li>
-                        <li class="submenu">
-                            <a href="#" class="noti-dot"><i class="la la-user"></i> <span> Employees</span> <span class="menu-arrow"></span></a>
-                            <ul style="display: none;">
-                                <li><a href="employees.html">All Employees</a></li>
-                                <li><a href="holidays.html">Holidays</a></li>
-                                <li><a href="leaves.html">Leaves (Admin) <span class="badge badge-pill bg-primary float-right">1</span></a></li>
-                                <li><a href="leaves-employee.html">Leaves (Employee)</a></li>
-                                <li><a href="leave-settings.html">Leave Settings</a></li>
-                                <li><a href="attendance.html">Attendance (Admin)</a></li>
-                                <li><a href="attendance-employee.html">Attendance (Employee)</a></li>
-                                <li><a href="departments.html">Departments</a></li>
-                                <li><a href="designations.html">Designations</a></li>
-                                <li><a href="timesheet.html">Timesheet</a></li>
-                                <li><a href="shift-scheduling.html">Shift & Schedule</a></li>
-                                <li><a href="overtime.html">Overtime</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="clients.html"><i class="la la-users"></i> <span>Clients</span></a>
-                        </li>
-                        <li class="submenu">
-                            <a href="#"><i class="la la-rocket"></i> <span> Projects</span> <span class="menu-arrow"></span></a>
-                            <ul style="display: none;">
-                                <li><a href="projects.html">Projects</a></li>
-                                <li><a href="tasks.html">Tasks</a></li>
-                                <li><a href="task-board.html">Task Board</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="leads.html"><i class="la la-user-secret"></i> <span>Leads</span></a>
-                        </li>
-                        <li>
-                            <a href="tickets.html"><i class="la la-ticket"></i> <span>Tickets</span></a>
-                        </li>
-                        <li class="menu-title">
-                            <span>HR</span>
-                        </li>
-                        <li class="submenu">
-                            <a href="#"><i class="la la-files-o"></i> <span> Sales </span> <span class="menu-arrow"></span></a>
-                            <ul style="display: none;">
-                                <li><a href="estimates.html">Estimates</a></li>
-                                <li><a href="invoices.html">Invoices</a></li>
-                                <li><a href="payments.html">Payments</a></li>
-                                <li><a href="expenses.html">Expenses</a></li>
-                                <li><a href="provident-fund.html">Provident Fund</a></li>
-                                <li><a href="taxes.html">Taxes</a></li>
-                            </ul>
-                        </li>
-                        <li class="submenu">
-                            <a href="#"><i class="la la-files-o"></i> <span> Accounting </span> <span class="menu-arrow"></span></a>
-                            <ul style="display: none;">
-                                <li><a href="categories.html">Categories</a></li>
-                                <li><a href="budgets.html">Budgets</a></li>
-                                <li><a href="budget-expenses.html">Budget Expenses</a></li>
-                                <li><a href="budget-revenues.html">Budget Revenues</a></li>
-                            </ul>
-                        </li>
-                        <li class="submenu">
-                            <a href="#"><i class="la la-money"></i> <span> Payroll </span> <span class="menu-arrow"></span></a>
-                            <ul style="display: none;">
-                                <li><a href="salary.html"> Employee Salary </a></li>
-                                <li><a href="salary-view.html"> Payslip </a></li>
-                                <li><a href="payroll-items.html"> Payroll Items </a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="policies.html"><i class="la la-file-pdf-o"></i> <span>Policies</span></a>
-                        </li>
-                        <li class="submenu">
-                            <a href="#"><i class="la la-pie-chart"></i> <span> Reports </span> <span class="menu-arrow"></span></a>
-                            <ul style="display: none;">
-                                <li><a href="expense-reports.html"> Expense Report </a></li>
-                                <li><a href="invoice-reports.html"> Invoice Report </a></li>
-                                <li><a href="payments-reports.html"> Payments Report </a></li>
-                                <li><a href="project-reports.html"> Project Report </a></li>
-                                <li><a href="task-reports.html"> Task Report </a></li>
-                                <li><a href="user-reports.html"> User Report </a></li>
-                                <li><a href="employee-reports.html"> Employee Report </a></li>
-                                <li><a href="payslip-reports.html"> Payslip Report </a></li>
-                                <li><a href="attendance-reports.html"> Attendance Report </a></li>
-                                <li><a href="leave-reports.html"> Leave Report </a></li>
-                                <li><a href="daily-reports.html"> Daily Report </a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-title">
-                            <span>Performance</span>
-                        </li>
-                        <li class="submenu">
-                            <a href="#"><i class="la la-graduation-cap"></i> <span> Performance </span> <span class="menu-arrow"></span></a>
-                            <ul style="display: none;">
-                                <li><a href="performance-indicator.html"> Performance Indicator </a></li>
-                                <li><a href="performance.html"> Performance Review </a></li>
-                                <li><a href="performance-appraisal.html"> Performance Appraisal </a></li>
-                            </ul>
-                        </li>
-                        <li class="submenu">
-                            <a href="#"><i class="la la-crosshairs"></i> <span> Goals </span> <span class="menu-arrow"></span></a>
-                            <ul style="display: none;">
-                                <li><a href="goal-tracking.html"> Goal List </a></li>
-                                <li><a href="goal-type.html"> Goal Type </a></li>
-                            </ul>
-                        </li>
-                        <li class="submenu">
-                            <a href="#"><i class="la la-edit"></i> <span> Training </span> <span class="menu-arrow"></span></a>
-                            <ul style="display: none;">
-                                <li><a href="training.html"> Training List </a></li>
-                                <li><a href="trainers.html"> Trainers</a></li>
-                                <li><a href="training-type.html"> Training Type </a></li>
-                            </ul>
-                        </li>
-                        <li><a href="promotion.html"><i class="la la-bullhorn"></i> <span>Promotion</span></a></li>
-                        <li><a href="resignation.html"><i class="la la-external-link-square"></i> <span>Resignation</span></a></li>
-                        <li><a href="termination.html"><i class="la la-times-circle"></i> <span>Termination</span></a></li>
-                        <li class="menu-title">
-                            <span>Administration</span>
-                        </li>
-                        <li>
-                            <a href="assets.html"><i class="la la-object-ungroup"></i> <span>Assets</span></a>
-                        </li>
-                        <li class="submenu">
-                            <a href="#"><i class="la la-briefcase"></i> <span> Jobs </span> <span class="menu-arrow"></span></a>
-                            <ul style="display: none;">
-                                <li><a href="user-dashboard.html"> User Dasboard </a></li>
-                                <li><a href="jobs-dashboard.html"> Jobs Dasboard </a></li>
-                                <li><a href="jobs.html"> Manage Jobs </a></li>
-                                <li><a href="manage-resumes.html"> Manage Resumes </a></li>
-                                <li><a href="shortlist-candidates.html"> Shortlist Candidates </a></li>
-                                <li><a href="interview-questions.html"> Interview Questions </a></li>
-                                <li><a href="offer_approvals.html"> Offer Approvals </a></li>
-                                <li><a href="experiance-level.html"> Experience Level </a></li>
-                                <li><a href="candidates.html"> Candidates List </a></li>
-                                <li><a href="schedule-timing.html"> Schedule timing </a></li>
-                                <li><a href="apptitude-result.html"> Aptitude Results </a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="knowledgebase.html"><i class="la la-question"></i> <span>Knowledgebase</span></a>
-                        </li>
-                        <li>
-                            <a href="activities.html"><i class="la la-bell"></i> <span>Activities</span></a>
-                        </li>
-                        <li>
-                            <a href="users.html"><i class="la la-user-plus"></i> <span>Users</span></a>
-                        </li>
-                        <li>
-                            <a href="settings.html"><i class="la la-cog"></i> <span>Settings</span></a>
-                        </li>
-                        <li class="menu-title">
-                            <span>Pages</span>
-                        </li>
-                        <li class="submenu">
-                            <a href="#"><i class="la la-user"></i> <span> Profile </span> <span class="menu-arrow"></span></a>
-                            <ul style="display: none;">
-                                <li><a href="profile.html"> Employee Profile </a></li>
-                                <li><a href="client-profile.html"> Client Profile </a></li>
-                            </ul>
-                        </li>
-                        <li class="submenu">
-                            <a href="#"><i class="la la-key"></i> <span> Authentication </span> <span class="menu-arrow"></span></a>
-                            <ul style="display: none;">
-                                <li><a href="login.html"> Login </a></li>
-                                <li><a href="register.html"> Register </a></li>
-                                <li><a href="forgot-password.html"> Forgot Password </a></li>
-                                <li><a href="otp.html"> OTP </a></li>
-                                <li><a href="lock-screen.html"> Lock Screen </a></li>
-                            </ul>
-                        </li>
-                        <li class="submenu">
-                            <a href="#"><i class="la la-exclamation-triangle"></i> <span> Error Pages </span> <span class="menu-arrow"></span></a>
-                            <ul style="display: none;">
-                                <li><a href="error-404.html">404 Error </a></li>
-                                <li><a href="error-500.html">500 Error </a></li>
-                            </ul>
-                        </li>
-                        <li class="submenu">
-                            <a href="#"><i class="la la-hand-o-up"></i> <span> Subscriptions </span> <span class="menu-arrow"></span></a>
-                            <ul style="display: none;">
-                                <li><a href="subscriptions.html"> Subscriptions (Admin) </a></li>
-                                <li><a href="subscriptions-company.html"> Subscriptions (Company) </a></li>
-                                <li><a href="subscribed-companies.html"> Subscribed Companies</a></li>
-                            </ul>
-                        </li>
-                        <li class="submenu">
-                            <a href="#"><i class="la la-columns"></i> <span> Pages </span> <span class="menu-arrow"></span></a>
-                            <ul style="display: none;">
-                                <li><a href="search.html"> Search </a></li>
-                                <li><a href="faq.html"> FAQ </a></li>
-                                <li><a href="terms.html"> Terms </a></li>
-                                <li><a href="privacy-policy.html"> Privacy Policy </a></li>
-                                <li><a href="blank-page.html"> Blank Page </a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-title">
-                            <span>UI Interface</span>
-                        </li>
-                        <li>
-                            <a href="components.html"><i class="la la-puzzle-piece"></i> <span>Components</span></a>
-                        </li>
-                        <li class="submenu">
-                            <a href="#"><i class="la la-object-group"></i> <span> Forms </span> <span class="menu-arrow"></span></a>
-                            <ul style="display: none;">
-                                <li><a href="form-basic-inputs.html">Basic Inputs </a></li>
-                                <li><a href="form-input-groups.html">Input Groups </a></li>
-                                <li><a href="form-horizontal.html">Horizontal Form </a></li>
-                                <li><a href="form-vertical.html"> Vertical Form </a></li>
-                                <li><a href="form-mask.html"> Form Mask </a></li>
-                                <li><a href="form-validation.html"> Form Validation </a></li>
-                            </ul>
-                        </li>
-                        <li class="submenu">
-                            <a href="#"><i class="la la-table"></i> <span> Tables </span> <span class="menu-arrow"></span></a>
-                            <ul style="display: none;">
-                                <li><a href="tables-basic.html">Basic Tables </a></li>
-                                <li><a href="data-tables.html">Data Table </a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-title">
-                            <span>Extras</span>
-                        </li>
-                        <li>
-                            <a href="#"><i class="la la-file-text"></i> <span>Documentation</span></a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0);"><i class="la la-info"></i> <span>Change Log</span> <span class="badge badge-primary ml-auto">v3.4</span></a>
-                        </li>
-                        <li class="submenu">
-                            <a href="javascript:void(0);"><i class="la la-share-alt"></i> <span>Multi Level</span> <span class="menu-arrow"></span></a>
-                            <ul style="display: none;">
-                                <li class="submenu">
-                                    <a href="javascript:void(0);"> <span>Level 1</span> <span class="menu-arrow"></span></a>
-                                    <ul style="display: none;">
-                                        <li><a href="javascript:void(0);"><span>Level 2</span></a></li>
-                                        <li class="submenu">
-                                            <a href="javascript:void(0);"> <span> Level 2</span> <span class="menu-arrow"></span></a>
-                                            <ul style="display: none;">
-                                                <li><a href="javascript:void(0);">Level 3</a></li>
-                                                <li><a href="javascript:void(0);">Level 3</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0);"> <span>Level 2</span></a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0);"> <span>Level 1</span></a>
-                                </li>
-                            </ul>
-                        </li>
+                        </li>   
                     </ul>
                 </div>
             </div>
@@ -722,7 +444,8 @@
                                     </div>
                                     <h3 class="mb-3">10</h3>
                                     <div class="progress mb-2" style="height: 5px;">
-                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;"
+                                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                     <p class="mb-0">Overall Employees 218</p>
                                 </div>
@@ -740,7 +463,8 @@
                                     </div>
                                     <h3 class="mb-3">$1,42,300</h3>
                                     <div class="progress mb-2" style="height: 5px;">
-                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;"
+                                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                     <p class="mb-0">Previous Month <span class="text-muted">$1,15,852</span></p>
                                 </div>
@@ -758,7 +482,8 @@
                                     </div>
                                     <h3 class="mb-3">$8,500</h3>
                                     <div class="progress mb-2" style="height: 5px;">
-                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;"
+                                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                     <p class="mb-0">Previous Month <span class="text-muted">$7,500</span></p>
                                 </div>
@@ -776,7 +501,8 @@
                                     </div>
                                     <h3 class="mb-3">$1,12,000</h3>
                                     <div class="progress mb-2" style="height: 5px;">
-                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;"
+                                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                     <p class="mb-0">Previous Month <span class="text-muted">$1,42,000</span></p>
                                 </div>
@@ -795,31 +521,39 @@
                                     <div class="stats-info">
                                         <p>Today Leave <strong>4 <small>/ 65</small></strong></p>
                                         <div class="progress">
-                                            <div class="progress-bar bg-primary" role="progressbar" style="width: 31%" aria-valuenow="31" aria-valuemin="0" aria-valuemax="100"></div>
+                                            <div class="progress-bar bg-primary" role="progressbar"
+                                                style="width: 31%" aria-valuenow="31" aria-valuemin="0"
+                                                aria-valuemax="100"></div>
                                         </div>
                                     </div>
                                     <div class="stats-info">
                                         <p>Pending Invoice <strong>15 <small>/ 92</small></strong></p>
                                         <div class="progress">
-                                            <div class="progress-bar bg-warning" role="progressbar" style="width: 31%" aria-valuenow="31" aria-valuemin="0" aria-valuemax="100"></div>
+                                            <div class="progress-bar bg-warning" role="progressbar"
+                                                style="width: 31%" aria-valuenow="31" aria-valuemin="0"
+                                                aria-valuemax="100"></div>
                                         </div>
                                     </div>
                                     <div class="stats-info">
                                         <p>Completed Projects <strong>85 <small>/ 112</small></strong></p>
                                         <div class="progress">
-                                            <div class="progress-bar bg-success" role="progressbar" style="width: 62%" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100"></div>
+                                            <div class="progress-bar bg-success" role="progressbar"
+                                                style="width: 62%" aria-valuenow="62" aria-valuemin="0"
+                                                aria-valuemax="100"></div>
                                         </div>
                                     </div>
                                     <div class="stats-info">
                                         <p>Open Tickets <strong>190 <small>/ 212</small></strong></p>
                                         <div class="progress">
-                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 62%" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100"></div>
+                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 62%"
+                                                aria-valuenow="62" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                     </div>
                                     <div class="stats-info">
                                         <p>Closed Tickets <strong>22 <small>/ 212</small></strong></p>
                                         <div class="progress">
-                                            <div class="progress-bar bg-info" role="progressbar" style="width: 22%" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100"></div>
+                                            <div class="progress-bar bg-info" role="progressbar" style="width: 22%"
+                                                aria-valuenow="22" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -848,18 +582,28 @@
                                     </div>
                                 </div>
                                 <div class="progress mb-4">
-                                    <div class="progress-bar bg-purple" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
-                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 22%" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">22%</div>
-                                    <div class="progress-bar bg-success" role="progressbar" style="width: 24%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">24%</div>
-                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 26%" aria-valuenow="14" aria-valuemin="0" aria-valuemax="100">21%</div>
-                                    <div class="progress-bar bg-info" role="progressbar" style="width: 10%" aria-valuenow="14" aria-valuemin="0" aria-valuemax="100">10%</div>
+                                    <div class="progress-bar bg-purple" role="progressbar" style="width: 30%"
+                                        aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 22%"
+                                        aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">22%</div>
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 24%"
+                                        aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">24%</div>
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 26%"
+                                        aria-valuenow="14" aria-valuemin="0" aria-valuemax="100">21%</div>
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 10%"
+                                        aria-valuenow="14" aria-valuemin="0" aria-valuemax="100">10%</div>
                                 </div>
                                 <div>
-                                    <p><i class="fa fa-dot-circle-o text-purple mr-2"></i>Completed Tasks <span class="float-right">166</span></p>
-                                    <p><i class="fa fa-dot-circle-o text-warning mr-2"></i>Inprogress Tasks <span class="float-right">115</span></p>
-                                    <p><i class="fa fa-dot-circle-o text-success mr-2"></i>On Hold Tasks <span class="float-right">31</span></p>
-                                    <p><i class="fa fa-dot-circle-o text-danger mr-2"></i>Pending Tasks <span class="float-right">47</span></p>
-                                    <p class="mb-0"><i class="fa fa-dot-circle-o text-info mr-2"></i>Review Tasks <span class="float-right">5</span></p>
+                                    <p><i class="fa fa-dot-circle-o text-purple mr-2"></i>Completed Tasks <span
+                                            class="float-right">166</span></p>
+                                    <p><i class="fa fa-dot-circle-o text-warning mr-2"></i>Inprogress Tasks <span
+                                            class="float-right">115</span></p>
+                                    <p><i class="fa fa-dot-circle-o text-success mr-2"></i>On Hold Tasks <span
+                                            class="float-right">31</span></p>
+                                    <p><i class="fa fa-dot-circle-o text-danger mr-2"></i>Pending Tasks <span
+                                            class="float-right">47</span></p>
+                                    <p class="mb-0"><i class="fa fa-dot-circle-o text-info mr-2"></i>Review Tasks
+                                        <span class="float-right">5</span></p>
                                 </div>
                             </div>
                         </div>
@@ -868,10 +612,12 @@
                     <div class="col-md-12 col-lg-6 col-xl-4 d-flex">
                         <div class="card flex-fill">
                             <div class="card-body">
-                                <h4 class="card-title">Today Absent <span class="badge bg-inverse-danger ml-2">5</span></h4>
+                                <h4 class="card-title">Today Absent <span
+                                        class="badge bg-inverse-danger ml-2">5</span></h4>
                                 <div class="leave-info-box">
                                     <div class="media align-items-center">
-                                        <a href="profile.html" class="avatar"><img alt="" src="assets/img/user.jpg"></a>
+                                        <a href="profile.html" class="avatar"><img alt=""
+                                                src="assets/img/user.jpg"></a>
                                         <div class="media-body">
                                             <div class="text-sm my-0">Martin Lewis</div>
                                         </div>
@@ -888,7 +634,8 @@
                                 </div>
                                 <div class="leave-info-box">
                                     <div class="media align-items-center">
-                                        <a href="profile.html" class="avatar"><img alt="" src="assets/img/user.jpg"></a>
+                                        <a href="profile.html" class="avatar"><img alt=""
+                                                src="assets/img/user.jpg"></a>
                                         <div class="media-body">
                                             <div class="text-sm my-0">Martin Lewis</div>
                                         </div>
@@ -1050,28 +797,39 @@
                                             <tr>
                                                 <td>
                                                     <h2 class="table-avatar">
-                                                        <a href="#" class="avatar"><img alt="" src="assets/img/profiles/avatar-19.jpg"></a>
+                                                        <a href="#" class="avatar"><img alt=""
+                                                                src="assets/img/profiles/avatar-19.jpg"></a>
                                                         <a href="client-profile.html">Barry Cuda <span>CEO</span></a>
                                                     </h2>
                                                 </td>
                                                 <td>barrycuda@example.com</td>
                                                 <td>
                                                     <div class="dropdown action-label">
-                                                        <a class="btn btn-white btn-sm btn-rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                                                        <a class="btn btn-white btn-sm btn-rounded dropdown-toggle"
+                                                            href="#" data-toggle="dropdown"
+                                                            aria-expanded="false">
                                                             <i class="fa fa-dot-circle-o text-success"></i> Active
                                                         </a>
                                                         <div class="dropdown-menu dropdown-menu-right">
-                                                            <a class="dropdown-item" href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a>
-                                                            <a class="dropdown-item" href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a>
+                                                            <a class="dropdown-item" href="#"><i
+                                                                    class="fa fa-dot-circle-o text-success"></i>
+                                                                Active</a>
+                                                            <a class="dropdown-item" href="#"><i
+                                                                    class="fa fa-dot-circle-o text-danger"></i>
+                                                                Inactive</a>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td class="text-right">
                                                     <div class="dropdown dropdown-action">
-                                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                                                        <a href="#" class="action-icon dropdown-toggle"
+                                                            data-toggle="dropdown" aria-expanded="false"><i
+                                                                class="material-icons">more_vert</i></a>
                                                         <div class="dropdown-menu dropdown-menu-right">
-                                                            <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                            <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                            <a class="dropdown-item" href="javascript:void(0)"><i
+                                                                    class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                            <a class="dropdown-item" href="javascript:void(0)"><i
+                                                                    class="fa fa-trash-o m-r-5"></i> Delete</a>
                                                         </div>
                                                     </div>
                                                 </td>
@@ -1079,28 +837,40 @@
                                             <tr>
                                                 <td>
                                                     <h2 class="table-avatar">
-                                                        <a href="#" class="avatar"><img alt="" src="assets/img/profiles/avatar-19.jpg"></a>
-                                                        <a href="client-profile.html">Tressa Wexler <span>Manager</span></a>
+                                                        <a href="#" class="avatar"><img alt=""
+                                                                src="assets/img/profiles/avatar-19.jpg"></a>
+                                                        <a href="client-profile.html">Tressa Wexler
+                                                            <span>Manager</span></a>
                                                     </h2>
                                                 </td>
                                                 <td>tressawexler@example.com</td>
                                                 <td>
                                                     <div class="dropdown action-label">
-                                                        <a class="btn btn-white btn-sm btn-rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                                                        <a class="btn btn-white btn-sm btn-rounded dropdown-toggle"
+                                                            href="#" data-toggle="dropdown"
+                                                            aria-expanded="false">
                                                             <i class="fa fa-dot-circle-o text-danger"></i> Inactive
                                                         </a>
                                                         <div class="dropdown-menu dropdown-menu-right">
-                                                            <a class="dropdown-item" href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a>
-                                                            <a class="dropdown-item" href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a>
+                                                            <a class="dropdown-item" href="#"><i
+                                                                    class="fa fa-dot-circle-o text-success"></i>
+                                                                Active</a>
+                                                            <a class="dropdown-item" href="#"><i
+                                                                    class="fa fa-dot-circle-o text-danger"></i>
+                                                                Inactive</a>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td class="text-right">
                                                     <div class="dropdown dropdown-action">
-                                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                                                        <a href="#" class="action-icon dropdown-toggle"
+                                                            data-toggle="dropdown" aria-expanded="false"><i
+                                                                class="material-icons">more_vert</i></a>
                                                         <div class="dropdown-menu dropdown-menu-right">
-                                                            <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                            <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                            <a class="dropdown-item" href="javascript:void(0)"><i
+                                                                    class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                            <a class="dropdown-item" href="javascript:void(0)"><i
+                                                                    class="fa fa-trash-o m-r-5"></i> Delete</a>
                                                         </div>
                                                     </div>
                                                 </td>
@@ -1108,28 +878,41 @@
                                             <tr>
                                                 <td>
                                                     <h2 class="table-avatar">
-                                                        <a href="client-profile.html" class="avatar"><img alt="" src="assets/img/profiles/avatar-07.jpg"></a>
-                                                        <a href="client-profile.html">Ruby Bartlett <span>CEO</span></a>
+                                                        <a href="client-profile.html" class="avatar"><img
+                                                                alt=""
+                                                                src="assets/img/profiles/avatar-07.jpg"></a>
+                                                        <a href="client-profile.html">Ruby Bartlett
+                                                            <span>CEO</span></a>
                                                     </h2>
                                                 </td>
                                                 <td>rubybartlett@example.com</td>
                                                 <td>
                                                     <div class="dropdown action-label">
-                                                        <a class="btn btn-white btn-sm btn-rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                                                        <a class="btn btn-white btn-sm btn-rounded dropdown-toggle"
+                                                            href="#" data-toggle="dropdown"
+                                                            aria-expanded="false">
                                                             <i class="fa fa-dot-circle-o text-danger"></i> Inactive
                                                         </a>
                                                         <div class="dropdown-menu dropdown-menu-right">
-                                                            <a class="dropdown-item" href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a>
-                                                            <a class="dropdown-item" href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a>
+                                                            <a class="dropdown-item" href="#"><i
+                                                                    class="fa fa-dot-circle-o text-success"></i>
+                                                                Active</a>
+                                                            <a class="dropdown-item" href="#"><i
+                                                                    class="fa fa-dot-circle-o text-danger"></i>
+                                                                Inactive</a>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td class="text-right">
                                                     <div class="dropdown dropdown-action">
-                                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                                                        <a href="#" class="action-icon dropdown-toggle"
+                                                            data-toggle="dropdown" aria-expanded="false"><i
+                                                                class="material-icons">more_vert</i></a>
                                                         <div class="dropdown-menu dropdown-menu-right">
-                                                            <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                            <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                            <a class="dropdown-item" href="javascript:void(0)"><i
+                                                                    class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                            <a class="dropdown-item" href="javascript:void(0)"><i
+                                                                    class="fa fa-trash-o m-r-5"></i> Delete</a>
                                                         </div>
                                                     </div>
                                                 </td>
@@ -1137,28 +920,40 @@
                                             <tr>
                                                 <td>
                                                     <h2 class="table-avatar">
-                                                        <a href="client-profile.html" class="avatar"><img alt="" src="assets/img/profiles/avatar-06.jpg"></a>
+                                                        <a href="client-profile.html" class="avatar"><img
+                                                                alt=""
+                                                                src="assets/img/profiles/avatar-06.jpg"></a>
                                                         <a href="client-profile.html"> Misty Tison <span>CEO</span></a>
                                                     </h2>
                                                 </td>
                                                 <td>mistytison@example.com</td>
                                                 <td>
                                                     <div class="dropdown action-label">
-                                                        <a class="btn btn-white btn-sm btn-rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                                                        <a class="btn btn-white btn-sm btn-rounded dropdown-toggle"
+                                                            href="#" data-toggle="dropdown"
+                                                            aria-expanded="false">
                                                             <i class="fa fa-dot-circle-o text-success"></i> Active
                                                         </a>
                                                         <div class="dropdown-menu dropdown-menu-right">
-                                                            <a class="dropdown-item" href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a>
-                                                            <a class="dropdown-item" href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a>
+                                                            <a class="dropdown-item" href="#"><i
+                                                                    class="fa fa-dot-circle-o text-success"></i>
+                                                                Active</a>
+                                                            <a class="dropdown-item" href="#"><i
+                                                                    class="fa fa-dot-circle-o text-danger"></i>
+                                                                Inactive</a>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td class="text-right">
                                                     <div class="dropdown dropdown-action">
-                                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                                                        <a href="#" class="action-icon dropdown-toggle"
+                                                            data-toggle="dropdown" aria-expanded="false"><i
+                                                                class="material-icons">more_vert</i></a>
                                                         <div class="dropdown-menu dropdown-menu-right">
-                                                            <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                            <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                            <a class="dropdown-item" href="javascript:void(0)"><i
+                                                                    class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                            <a class="dropdown-item" href="javascript:void(0)"><i
+                                                                    class="fa fa-trash-o m-r-5"></i> Delete</a>
                                                         </div>
                                                     </div>
                                                 </td>
@@ -1166,28 +961,41 @@
                                             <tr>
                                                 <td>
                                                     <h2 class="table-avatar">
-                                                        <a href="client-profile.html" class="avatar"><img alt="" src="assets/img/profiles/avatar-14.jpg"></a>
-                                                        <a href="client-profile.html"> Daniel Deacon <span>CEO</span></a>
+                                                        <a href="client-profile.html" class="avatar"><img
+                                                                alt=""
+                                                                src="assets/img/profiles/avatar-14.jpg"></a>
+                                                        <a href="client-profile.html"> Daniel Deacon
+                                                            <span>CEO</span></a>
                                                     </h2>
                                                 </td>
                                                 <td>danieldeacon@example.com</td>
                                                 <td>
                                                     <div class="dropdown action-label">
-                                                        <a class="btn btn-white btn-sm btn-rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                                                        <a class="btn btn-white btn-sm btn-rounded dropdown-toggle"
+                                                            href="#" data-toggle="dropdown"
+                                                            aria-expanded="false">
                                                             <i class="fa fa-dot-circle-o text-danger"></i> Inactive
                                                         </a>
                                                         <div class="dropdown-menu dropdown-menu-right">
-                                                            <a class="dropdown-item" href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a>
-                                                            <a class="dropdown-item" href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a>
+                                                            <a class="dropdown-item" href="#"><i
+                                                                    class="fa fa-dot-circle-o text-success"></i>
+                                                                Active</a>
+                                                            <a class="dropdown-item" href="#"><i
+                                                                    class="fa fa-dot-circle-o text-danger"></i>
+                                                                Inactive</a>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td class="text-right">
                                                     <div class="dropdown dropdown-action">
-                                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                                                        <a href="#" class="action-icon dropdown-toggle"
+                                                            data-toggle="dropdown" aria-expanded="false"><i
+                                                                class="material-icons">more_vert</i></a>
                                                         <div class="dropdown-menu dropdown-menu-right">
-                                                            <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                            <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                            <a class="dropdown-item" href="javascript:void(0)"><i
+                                                                    class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                            <a class="dropdown-item" href="javascript:void(0)"><i
+                                                                    class="fa fa-trash-o m-r-5"></i> Delete</a>
                                                         </div>
                                                     </div>
                                                 </td>
@@ -1221,21 +1029,27 @@
                                                 <td>
                                                     <h2><a href="project-view.html">Office Management</a></h2>
                                                     <small class="block text-ellipsis">
-															<span>1</span> <span class="text-muted">open tasks, </span>
-															<span>9</span> <span class="text-muted">tasks completed</span>
-														</small>
+                                                        <span>1</span> <span class="text-muted">open tasks, </span>
+                                                        <span>9</span> <span class="text-muted">tasks completed</span>
+                                                    </small>
                                                 </td>
                                                 <td>
                                                     <div class="progress progress-xs progress-striped">
-                                                        <div class="progress-bar" role="progressbar" data-toggle="tooltip" title="65%" style="width: 65%"></div>
+                                                        <div class="progress-bar" role="progressbar"
+                                                            data-toggle="tooltip" title="65%" style="width: 65%">
+                                                        </div>
                                                     </div>
                                                 </td>
                                                 <td class="text-right">
                                                     <div class="dropdown dropdown-action">
-                                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                                                        <a href="#" class="action-icon dropdown-toggle"
+                                                            data-toggle="dropdown" aria-expanded="false"><i
+                                                                class="material-icons">more_vert</i></a>
                                                         <div class="dropdown-menu dropdown-menu-right">
-                                                            <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                            <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                            <a class="dropdown-item" href="javascript:void(0)"><i
+                                                                    class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                            <a class="dropdown-item" href="javascript:void(0)"><i
+                                                                    class="fa fa-trash-o m-r-5"></i> Delete</a>
                                                         </div>
                                                     </div>
                                                 </td>
@@ -1244,21 +1058,27 @@
                                                 <td>
                                                     <h2><a href="project-view.html">Project Management</a></h2>
                                                     <small class="block text-ellipsis">
-															<span>2</span> <span class="text-muted">open tasks, </span>
-															<span>5</span> <span class="text-muted">tasks completed</span>
-														</small>
+                                                        <span>2</span> <span class="text-muted">open tasks, </span>
+                                                        <span>5</span> <span class="text-muted">tasks completed</span>
+                                                    </small>
                                                 </td>
                                                 <td>
                                                     <div class="progress progress-xs progress-striped">
-                                                        <div class="progress-bar" role="progressbar" data-toggle="tooltip" title="15%" style="width: 15%"></div>
+                                                        <div class="progress-bar" role="progressbar"
+                                                            data-toggle="tooltip" title="15%"
+                                                            style="width: 15%"></div>
                                                     </div>
                                                 </td>
                                                 <td class="text-right">
                                                     <div class="dropdown dropdown-action">
-                                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                                                        <a href="#" class="action-icon dropdown-toggle"
+                                                            data-toggle="dropdown" aria-expanded="false"><i
+                                                                class="material-icons">more_vert</i></a>
                                                         <div class="dropdown-menu dropdown-menu-right">
-                                                            <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                            <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                            <a class="dropdown-item" href="javascript:void(0)"><i
+                                                                    class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                            <a class="dropdown-item" href="javascript:void(0)"><i
+                                                                    class="fa fa-trash-o m-r-5"></i> Delete</a>
                                                         </div>
                                                     </div>
                                                 </td>
@@ -1267,21 +1087,27 @@
                                                 <td>
                                                     <h2><a href="project-view.html">Video Calling App</a></h2>
                                                     <small class="block text-ellipsis">
-															<span>3</span> <span class="text-muted">open tasks, </span>
-															<span>3</span> <span class="text-muted">tasks completed</span>
-														</small>
+                                                        <span>3</span> <span class="text-muted">open tasks, </span>
+                                                        <span>3</span> <span class="text-muted">tasks completed</span>
+                                                    </small>
                                                 </td>
                                                 <td>
                                                     <div class="progress progress-xs progress-striped">
-                                                        <div class="progress-bar" role="progressbar" data-toggle="tooltip" title="49%" style="width: 49%"></div>
+                                                        <div class="progress-bar" role="progressbar"
+                                                            data-toggle="tooltip" title="49%"
+                                                            style="width: 49%"></div>
                                                     </div>
                                                 </td>
                                                 <td class="text-right">
                                                     <div class="dropdown dropdown-action">
-                                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                                                        <a href="#" class="action-icon dropdown-toggle"
+                                                            data-toggle="dropdown" aria-expanded="false"><i
+                                                                class="material-icons">more_vert</i></a>
                                                         <div class="dropdown-menu dropdown-menu-right">
-                                                            <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                            <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                            <a class="dropdown-item" href="javascript:void(0)"><i
+                                                                    class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                            <a class="dropdown-item" href="javascript:void(0)"><i
+                                                                    class="fa fa-trash-o m-r-5"></i> Delete</a>
                                                         </div>
                                                     </div>
                                                 </td>
@@ -1290,21 +1116,27 @@
                                                 <td>
                                                     <h2><a href="project-view.html">Hospital Administration</a></h2>
                                                     <small class="block text-ellipsis">
-															<span>12</span> <span class="text-muted">open tasks, </span>
-															<span>4</span> <span class="text-muted">tasks completed</span>
-														</small>
+                                                        <span>12</span> <span class="text-muted">open tasks, </span>
+                                                        <span>4</span> <span class="text-muted">tasks completed</span>
+                                                    </small>
                                                 </td>
                                                 <td>
                                                     <div class="progress progress-xs progress-striped">
-                                                        <div class="progress-bar" role="progressbar" data-toggle="tooltip" title="88%" style="width: 88%"></div>
+                                                        <div class="progress-bar" role="progressbar"
+                                                            data-toggle="tooltip" title="88%"
+                                                            style="width: 88%"></div>
                                                     </div>
                                                 </td>
                                                 <td class="text-right">
                                                     <div class="dropdown dropdown-action">
-                                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                                                        <a href="#" class="action-icon dropdown-toggle"
+                                                            data-toggle="dropdown" aria-expanded="false"><i
+                                                                class="material-icons">more_vert</i></a>
                                                         <div class="dropdown-menu dropdown-menu-right">
-                                                            <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                            <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                            <a class="dropdown-item" href="javascript:void(0)"><i
+                                                                    class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                            <a class="dropdown-item" href="javascript:void(0)"><i
+                                                                    class="fa fa-trash-o m-r-5"></i> Delete</a>
                                                         </div>
                                                     </div>
                                                 </td>
@@ -1313,21 +1145,28 @@
                                                 <td>
                                                     <h2><a href="project-view.html">Digital Marketplace</a></h2>
                                                     <small class="block text-ellipsis">
-															<span>7</span> <span class="text-muted">open tasks, </span>
-															<span>14</span> <span class="text-muted">tasks completed</span>
-														</small>
+                                                        <span>7</span> <span class="text-muted">open tasks, </span>
+                                                        <span>14</span> <span class="text-muted">tasks
+                                                            completed</span>
+                                                    </small>
                                                 </td>
                                                 <td>
                                                     <div class="progress progress-xs progress-striped">
-                                                        <div class="progress-bar" role="progressbar" data-toggle="tooltip" title="100%" style="width: 100%"></div>
+                                                        <div class="progress-bar" role="progressbar"
+                                                            data-toggle="tooltip" title="100%"
+                                                            style="width: 100%"></div>
                                                     </div>
                                                 </td>
                                                 <td class="text-right">
                                                     <div class="dropdown dropdown-action">
-                                                        <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                                                        <a href="#" class="action-icon dropdown-toggle"
+                                                            data-toggle="dropdown" aria-expanded="false"><i
+                                                                class="material-icons">more_vert</i></a>
                                                         <div class="dropdown-menu dropdown-menu-right">
-                                                            <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                            <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                            <a class="dropdown-item" href="javascript:void(0)"><i
+                                                                    class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                            <a class="dropdown-item" href="javascript:void(0)"><i
+                                                                    class="fa fa-trash-o m-r-5"></i> Delete</a>
                                                         </div>
                                                     </div>
                                                 </td>
@@ -1349,26 +1188,9 @@
         </div>
         <!-- /Page Wrapper -->
     </div>
-    <footer>dfdf</footer>
     <!-- /Main Wrapper -->
 
-    <!-- jQuery -->
-    <script src="assets/js/jquery-3.5.1.min.js"></script>
-
-    <!-- Bootstrap Core JS -->
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-
-    <!-- Slimscroll JS -->
-    <script src="assets/js/jquery.slimscroll.min.js"></script>
-
-    <!-- Chart JS -->
-    <script src="assets/plugins/morris/morris.min.js"></script>
-    <script src="assets/plugins/raphael/raphael.min.js"></script>
-    <script src="assets/js/chart.js"></script>
-
-    <!-- Custom JS -->
-    <script src="assets/js/app.js"></script>
+ 
 
 </body>
 

@@ -86,49 +86,49 @@ Version      : 3.6
 	url(../fonts/MaterialIcons-Regular.ttf) format('truetype');
 }
 @font-face {
-	font-family: 'CircularStd';
+	font-family: 'Kanit';
 	font-style: normal;
 	font-weight: 400;
 	src: local('Circular Std Book'), url('../fonts/kanit/Kanit-Regular.ttf') format('truetype');
 }
 @font-face {
-	font-family: 'CircularStd';
+	font-family: 'Kanit';
 	font-style: italic;
 	font-weight: 400;
 	src: local('Circular Std Book Italic'), url('../fonts/kanit/Kanit-LightItalic.ttf') format('truetype');
 }
 @font-face {
-	font-family: 'CircularStd';
+	font-family: 'Kanit';
 	font-style: normal;
 	font-weight: 500;
 	src: local('Circular Std Medium'), url('../fonts/kanit/Kanit-Medium.ttf') format('truetype');
 }
 @font-face {
-	font-family: 'CircularStd';
+	font-family: 'Kanit';
 	font-style: italic;
 	font-weight: 500;
 	src: local('Circular Std Medium Italic'), url('../fonts/kanit/Kanit-MediumItalic.ttf') format('truetype');
 }
 @font-face {
-	font-family: 'CircularStd';
+	font-family: 'Kanit';
 	font-style: normal;
 	font-weight: 600;
 	src: local('Circular Std Bold'), url('../fonts/kanit/Kanit-SemiBold.ttf') format('truetype');
 }
 @font-face {
-	font-family: 'CircularStd';
+	font-family: 'Kanit';
 	font-style: italic;
 	font-weight: 600;
 	src: local('Circular Std Bold Italic'), url('../fonts/kanit/Kanit-SemiBoldItalic.ttf') format('truetype');
 }
 @font-face {
-	font-family: 'CircularStd';
+	font-family: 'Kanit';
 	font-style: normal;
 	font-weight: 800;
 	src: local('Circular Std Black'), url('../fonts/kanit/Kanit-Black.ttf') format('truetype');
 }
 @font-face {
-	font-family: 'CircularStd';
+	font-family: 'Kanit';
 	font-style: italic;
 	font-weight: 800;
 	src: local('Circular Std Black Italic'), url('../fonts/kanit/Kanit-BlackItalic.ttf') format('truetype');
@@ -142,7 +142,7 @@ html {
 	height: 100%;
 }
 body {
-	font-family: 'CircularStd', sans-serif;
+	font-family: 'Kanit', sans-serif;
 	font-size: .9375rem;
 	color: #1f1f1f;
 	background-color: #f7f7f7;
@@ -155,7 +155,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: CircularStd;
+	font-family: Kanit;
 	margin-top: 0;
 	font-weight: 500;
 }
@@ -1327,10 +1327,10 @@ table.dataTable thead > tr > td.sorting {
 
 .header {
 	background: #f43b48;
-	background: -moz-linear-gradient(left, #f43b48 0%, #453a94 100%);
-	background: -webkit-linear-gradient(left, #f43b48 0%, #453a94 100%);
-	background: -ms-linear-gradient(left, #f43b48 0%, #453a94 100%);
-	background: linear-gradient(to right, #f43b48 0%, #453a94 100%);
+	background: -moz-linear-gradient(left, #f43b48 0%, #3a9443 0%);
+	background: -webkit-linear-gradient(left, #f43b48 0%, #3a9443 0%);
+	background: -ms-linear-gradient(left, #f43b48 0%, #3a9443 0%);
+	background: linear-gradient(to right, #f43b48 0%, #3a9443 0%);
 	border-bottom: 1px solid transparent;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
 	height: 60px;
@@ -3310,12 +3310,12 @@ table.dataTable thead > tr > td.sorting {
 .fc-toolbar h2 {
 	font-size: 18px;
 	font-weight: 600;
-	font-family: 'CircularStd', sans-serif;
+	font-family: 'Kanit', sans-serif;
 	line-height: 30px;
 	text-transform: uppercase;
 }
 .fc-day-grid-event .fc-time {
-	font-family: 'CircularStd', sans-serif;
+	font-family: 'Kanit', sans-serif;
 }
 .fc-day {
 	background: #fff;
@@ -3438,12 +3438,12 @@ table.dataTable thead > tr > td.sorting {
 .fc-basic-view td.fc-week-number span {
 	padding-right: 8px;
 	font-weight: 700;
-	font-family: 'CircularStd', sans-serif;
+	font-family: 'Kanit', sans-serif;
 }
 .fc-basic-view td.fc-day-number {
 	padding-right: 8px;
 	font-weight: 700;
-	font-family: 'CircularStd', sans-serif;
+	font-family: 'Kanit', sans-serif;
 }
 .event-form .input-group .form-control {
 	height: 40px;
