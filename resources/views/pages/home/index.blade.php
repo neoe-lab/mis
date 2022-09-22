@@ -10,10 +10,10 @@
             <div class="page-header">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h3 class="page-title">ยินดีตอนรับ</h3>
-                        <ul class="breadcrumb">
+                        <h3 class="page-title text-center">โรงพยาบาลทุ่งยางแดง</h3>
+                        {{-- <ul class="breadcrumb">
                             <li class="breadcrumb-item active">Dashboard</li>
-                        </ul>
+                        </ul> --}}
                     </div>
                 </div>
             </div>
@@ -56,22 +56,22 @@
                                         aria-valuenow="14" aria-valuemin="0" aria-valuemax="100">10%</div>
                                 </div> --}}
                                 <div>
-                                    <h5 class="mb-1"><i class="fa fa-dot-circle-o text-primary mr-2"></i>รับใหม่วันนี้ <span
-                                            class="float-right">55</span></h5>
-                                    <h5 class="mb-1"><i class="fa fa-dot-circle-o text-secondary mr-2"></i>จำหน่ายวันนี้ <span
-                                            class="float-right">5</span></h5>
-                                    <h5 class="mb-1"><i class="fa fa-dot-circle-o text-purple mr-2"></i>admit อยู่ <span
-                                            class="float-right">5</span></h5>
-                                    <h5 class="mb-1"><i class="fa fa-dot-circle-o text-success mr-2"></i>สิทธ์ UC <span
-                                            class="float-right">5</span></h5>
-                                    <h5 class="mb-1"><i class="fa fa-dot-circle-o text-danger mr-2"></i>สิทธิ์อื่นๆ <span
-                                            class="float-right">5</span></h5>
-                                    <h5 class="mb-1"><i class="fa fa-dot-circle-o text-warning mr-2"></i>เตียงว่าง <span
-                                            class="float-right">5</span></h5>
-                                    <h5 class="mb-1"><i class="fa fa-dot-circle-o text-info mr-2"></i>สิทธิ์ชำระและเบิกได้ <span
-                                            class="float-right">5</span></h5>
-                                    <h5 class="mb-1"><i class="fa fa-dot-circle-o text-dark mr-2"></i>อัตราการครองเตียง <span
-                                            class="badge badge-pill bg-primary float-right text-white">5</span></h5>
+                                    <h4 class="mb-1"><i class="fa fa-dot-circle-o text-primary mr-2"></i>รับใหม่วันนี้ <span
+                                            class="float-right">55</span></h4>
+                                    <h4 class="mb-1"><i class="fa fa-dot-circle-o text-secondary mr-2"></i>จำหน่ายวันนี้ <span
+                                            class="float-right">5</span></h4>
+                                    <h4 class="mb-1"><i class="fa fa-dot-circle-o text-purple mr-2"></i>admit อยู่ <span
+                                            class="float-right">5</span></h4>
+                                    <h4 class="mb-1"><i class="fa fa-dot-circle-o text-success mr-2"></i>สิทธ์ UC <span
+                                            class="float-right">5</span></h4>
+                                    <h4 class="mb-1"><i class="fa fa-dot-circle-o text-danger mr-2"></i>สิทธิ์อื่นๆ <span
+                                            class="float-right">5</span></h4>
+                                    <h4 class="mb-1"><i class="fa fa-dot-circle-o text-warning mr-2"></i>เตียงว่าง <span
+                                            class="float-right">5</span></h4>
+                                    <h4 class="mb-1"><i class="fa fa-dot-circle-o text-info mr-2"></i>สิทธิ์ชำระและเบิกได้ <span
+                                            class="float-right">5</span></h4>
+                                    <h4 class="mb-1"><i class="fa fa-dot-circle-o text-dark mr-2"></i>อัตราการครองเตียง <span
+                                            class="float-right">5</span></h4>
                                 </div>
                             </div>
                         </div>
@@ -233,26 +233,27 @@
                                        
                                         <tr>
                                             <td>
-                                                <h2><i class="la la-hashtag"></i><a href="project-view.html">J028</a></h2>
+                                                <h4><i class="la la-hashtag"></i><a href="project-view.html">J028</a></h4>
                                                 <small class="block text-ellipsis">
-                                                    <h5 class="text-muted"><i class="la la-dot-circle-o text-dark"></i> Acute pharyngitis due to other specified organisms</h5>
+                                                    <h5 class="text-dark"><i class="la la-caret-square-right"></i> Acute pharyngitis due to other specified organisms</h5>
                                                 
                                                     </small>
                                             </td>
                                             <td>
-                                                <div>55 
-                                                    <i class="la la-user-tie">
-                                                    </i>
+                                                <div>
+                                                    <h3><i class="la la-user-tie"></i>
+                                                    55 </h3>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    55
-                                                    <i class="la la-user-nurse"></i>
+                                                    <h3><i class="la la-user-nurse"></i>
+                                                    55</h3>
                                                 </div>
                                             </td>
                                             <td class="text-right">
-                                                500
+                                                <h3><i class="la la-user-friends"></i>
+                                                500</h3>
                                             </td>
                                         </tr> 
                                         @endfor
@@ -261,11 +262,8 @@
                             </div>
                         </div>
                         <div class="card-footer">
-                   
                         </div>
-                        <div class="card-footer">
-                          
-                        </div>
+                       
                     </div>
                 </div>
 
@@ -293,24 +291,27 @@
                                        
                                         <tr>
                                             <td>
-                                                <h2><a href="project-view.html">J028</a></h2>
+                                                <h4><i class="la la-hashtag"></i><a href="project-view.html">J028</a></h4>
                                                 <small class="block text-ellipsis">
-                                                    <h5 class="text-muted">Acute pharyngitis due to other specified organisms</h5>
+                                                    <h5 class="text-dark"><i class="la la-caret-square-right"></i> Acute pharyngitis due to other specified organisms</h5>
                                                 
                                                     </small>
                                             </td>
                                             <td>
                                                 <div>
-                                                   55
+                                                    <h3><i class="la la-user-tie"></i>
+                                                    55 </h3>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div>
-                                                    55
+                                                    <h3><i class="la la-user-nurse"></i>
+                                                    55</h3>
                                                 </div>
                                             </td>
                                             <td class="text-right">
-                                                500
+                                                <h3><i class="la la-user-friends"></i>
+                                                500</h3>
                                             </td>
                                         </tr> 
                                         @endfor
@@ -326,6 +327,21 @@
             </div>
             {{-- end secttion 2 --}}
 
+            {{-- start chart --}}
+            {{-- <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6 text-center d-flex">
+                            <div class="card flex-fill">
+                                <div class="card-body"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                                    <h3 class="card-title">Overview</h3>
+                                    <canvas id="lineChart" style="display: block; width: 596px; height: 298px;" class="chartjs-render-monitor" width="596" height="298"></canvas>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div> --}}
 
 
 
@@ -335,3 +351,9 @@
     </div>
     <!-- /Page Wrapper -->
 @endsection
+
+
+{{-- 
+@section('chart-custom')
+@include('pages.charts.visit-odp')
+@endsection --}}

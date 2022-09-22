@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Dashboard\Chome;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('pages.home.index');
 });
+
+Route::get('/home',[Chome::class,'index'])->name('home');

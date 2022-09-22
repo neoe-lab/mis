@@ -11,7 +11,10 @@
    <!-- Chart JS -->
    <script src={{ asset('assets/plugins/morris/morris.min.js') }}></script>
    <script src={{ asset('assets/plugins/raphael/raphael.min.js') }}></script>
-   <script src={{ asset('assets/js/chart.js') }}></script>
+   <script src={{ asset('assets/js/chart.min.js') }}></script>
+   {{-- Chart Custom --}}
+   @yield('chart-custom')
 
    <!-- Custom JS -->
+   @yield('js-custom')
    <script src={{ asset('assets/js/app.js') }}></script>
