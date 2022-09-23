@@ -6,6 +6,9 @@
                     <li class="active"> 
                         <a href="{{ route('home')}}"><i class="la la-home"></i> <span>Home</span></a>
                     </li>
+                    <li class=""> 
+                        <a href="{{ route('kpi')}}"><i class="la la-chart-bar"></i> <span>KPI HOSPITAL</span></a>
+                    </li>
                 </ul>
             </div>
         </div>

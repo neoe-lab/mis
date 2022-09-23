@@ -1,6 +1,11 @@
 <?php
 
 use App\Http\Controllers\Dashboard\Chome;
+use App\Http\Controllers\Details\CER;
+use App\Http\Controllers\Details\COPD;
+use App\Http\Controllers\Details\CVISIT;
+use App\Http\Controllers\Kpi\CKPI;
+use App\Http\Controllers\Kpi\Cmain;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,3 +24,11 @@ Route::get('/', function () {
 });
 
 Route::get('/home',[Chome::class,'index'])->name('home');
+Route::get('/detail/visit',[CVISIT::class,'index'])->name('detail-visit');
+Route::get('/detail/er',[CER::class,'index'])->name('detail-er');
+Route::get('/detail/opd',[COPD::class,'index'])->name('detail-opd');
+
+
+
+// show kpi
+Route::get('/kpi',[CKPI::class,'index'])->name('kpi');

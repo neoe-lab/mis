@@ -10,6 +10,7 @@
         {{-- start loader --}}
         @include('includes.loader')
         {{-- end loader --}}
+
         {{-- start navbar --}}
         @include('includes.navbar')
         {{-- end navbar --}}
