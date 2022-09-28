@@ -4,6 +4,7 @@ namespace App\Http\Controllers\api\details;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class opd extends Controller
 {
@@ -14,7 +15,11 @@ class opd extends Controller
      */
     public function index()
     {
-        //
+        // $pt_opd = DB::select("SELECT COUNT(DISTINCT hn) AS ptm_opd_hn,COUNT(DISTINCT vn) AS ptm_opd_vn
+        // ,COUNT(DISTINCT IF(vstdate = DATE_FORMAT(NOW(),'%Y-%m-%d'),vn,NULL)) AS pt_opd_today
+        // FROM ovst
+        // WHERE vstdate BETWEEN DATE_FORMAT(NOW(),'%Y-%m-01') AND DATE_FORMAT(NOW(),'%Y-%m-%d')");
+        return "ok";
     }
 
     /**

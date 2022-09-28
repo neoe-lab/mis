@@ -1,7 +1,6 @@
 @extends('layouts.main_layout')
 
 @section('content')
-
     <!-- Page Wrapper -->
     <div class="page-wrapper">
 
@@ -28,7 +27,8 @@
                     <div class="card-group m-b-30">
                         <div class="card flex-fill">
                             <div class="card-body">
-                                <h4 class="card-title text-center"><i class="la la-folder"></i> สถิติผู้รับบริการ IPD วันนี้</h4>
+                                <h4 class="card-title text-center"><i class="la la-folder"></i> สถิติผู้รับบริการ IPD วันนี้
+                                </h4>
                                 <div class="statistics">
                                     <div class="row">
                                         <div class="col-md-6 col-6 text-center">
@@ -45,23 +45,14 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <div class="progress mb-4">
-                                    <div class="progress-bar bg-purple" role="progressbar" style="width: 30%"
-                                        aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
-                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 22%"
-                                        aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">22%</div>
-                                    <div class="progress-bar bg-success" role="progressbar" style="width: 24%"
-                                        aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">24%</div>
-                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 26%"
-                                        aria-valuenow="14" aria-valuemin="0" aria-valuemax="100">21%</div>
-                                    <div class="progress-bar bg-info" role="progressbar" style="width: 10%"
-                                        aria-valuenow="14" aria-valuemin="0" aria-valuemax="100">10%</div>
-                                </div> --}}
+                        
                                 <div>
-                                    <h4 class="mb-1"><i class="fa fa-dot-circle-o text-primary mr-2"></i>รับใหม่วันนี้ <span
-                                            class="float-right">0</span></h4>
-                                    <h4 class="mb-1"><i class="fa fa-dot-circle-o text-secondary mr-2"></i>จำหน่ายวันนี้ <span
-                                            class="float-right">0</span></h4>
+                                    <h4 class="mb-1"><i class="fa fa-dot-circle-o text-primary mr-2"></i>รับใหม่วันนี้
+                                        <span class="float-right">0</span>
+                                    </h4>
+                                    <h4 class="mb-1"><i class="fa fa-dot-circle-o text-secondary mr-2"></i>จำหน่ายวันนี้
+                                        <span class="float-right">0</span>
+                                    </h4>
                                     <h4 class="mb-1"><i class="fa fa-dot-circle-o text-purple mr-2"></i>admit อยู่ <span
                                             class="float-right">0</span></h4>
                                     <h4 class="mb-1"><i class="fa fa-dot-circle-o text-success mr-2"></i>สิทธ์ UC <span
@@ -70,10 +61,12 @@
                                             class="float-right">0</span></h4>
                                     <h4 class="mb-1"><i class="fa fa-dot-circle-o text-warning mr-2"></i>เตียงว่าง <span
                                             class="float-right">0</span></h4>
-                                    <h4 class="mb-1"><i class="fa fa-dot-circle-o text-info mr-2"></i>สิทธิ์ชำระและเบิกได้ <span
-                                            class="float-right">0</span></h4>
-                                    <h4 class="mb-1"><i class="fa fa-dot-circle-o text-dark mr-2"></i>อัตราการครองเตียง <span
-                                            class="float-right">0</span></h4>
+                                    <h4 class="mb-1"><i class="fa fa-dot-circle-o text-info mr-2"></i>สิทธิ์ชำระและเบิกได้
+                                        <span class="float-right">0</span>
+                                    </h4>
+                                    <h4 class="mb-1"><i class="fa fa-dot-circle-o text-dark mr-2"></i>อัตราการครองเตียง
+                                        <span class="float-right">0</span>
+                                    </h4>
                                 </div>
                             </div>
                         </div>
@@ -82,38 +75,38 @@
 
                 <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
                     <div class="card-group m-b-30">
-                        <a href="{{ route('detail-visit')}}" class="card">
+                        <a href="{{ route('detail-visit') }}" class="card">
                             <div class="card-body bg-success text-white">
                                 <div class="text-center">
                                     <h3 class="text-title">ผู้รับบริการ วันนี้</h3>
-                                    <h1 class="mb-3"> <i class="la la-stethoscope"></i> 0</h1>
-                                    <p class="mb-0">(เดือนนี้ 0 คน / 0 ครั้ง)</p>
+                                    <h1 class="mb-3"> <i class="la la-stethoscope"></i> <span id="pt_visit_today">0</span></h1>
+                                    <p class="mb-0">(เดือนนี้ <span id="ptm_visit_hn">0</span> คน / <span id="ptm_visit_vn">0</span> ครั้ง)</p>
                                 </div>
-                            </div>   
+                            </div>
                         </a>
                     </div>
                     <div class="card-group m-b-30">
-                        <a href="{{ route('detail-er')}}" class="card">
+                        <a href="{{ route('detail-er') }}" class="card">
                             <div class="card-body bg-danger text-white">
                                 <div class="text-center">
                                     <h3 class="text-title">ER วันนี้</h3>
-                                    <h1 class="mb-3"> <i class="la la-taxi"></i> 0</h1>
-                                    <p class="mb-0">(เดือนนี้ 0 คน / 0 ครั้ง)</p>
+                                    <h1 class="mb-3"> <i class="la la-taxi"></i> <span id="pt_er_today">0</span></h1>
+                                    <p class="mb-0">(เดือนนี้ <span id="ptm_er_hn">0</span> คน / <span id="ptm_er_vn">0</span> ครั้ง)</p>
                                 </div>
-                            </div>                           
+                            </div>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
                     <div class="card-group m-b-30">
-                        <a href="{{ route('detail-opd')}}" class="card">
+                        <a href="{{ route('detail-opd') }}" class="card">
                             <div class="card-body bg-info text-white">
                                 <div class="text-center">
                                     <h3 class="text-title">OPD วันนี้</h3>
-                                    <h1 class="mb-3"> <i class="la la-id-card"></i> 0</h1>
-                                    <p class="mb-0">(เดือนนี้ 0 คน / 0 ครั้ง)</p>
+                                    <h1  class="mb-3"> <i class="la la-id-card"></i> <span id="pt_opd_today">0</span></h1>
+                                    <p class="mb-0">(เดือนนี้ <span id="ptm_opd_hn">0</span> คน / <span id="ptm_opd_vn">0</span> ครั้ง)</p>
                                 </div>
-                            </div>   
+                            </div>
                         </a>
                     </div>
                     <div class="card-group m-b-30">
@@ -121,10 +114,10 @@
                             <div class="card-body bg-info text-white">
                                 <div class="text-center">
                                     <h3 class="text-title">PCU วันนี้</h3>
-                                    <h1 class="mb-3"> <i class="la la-hospital-o"></i> 0</h1>
-                                    <p class="mb-0">(เดือนนี้ 0 คน / 0 ครั้ง)</p>
+                                    <h1 class="mb-3"> <i class="la la-hospital-o"></i><span id="">0</span></h1>
+                                    <p class="mb-0">(เดือนนี้ <span id="">0</span> คน / <span id="">0</span> ครั้ง)</p>
                                 </div>
-                            </div>   
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -135,10 +128,10 @@
                             <div class="card-body bg-warning text-white">
                                 <div class="text-center">
                                     <h3 class="text-title">Admit วันนี้</h3>
-                                    <h1 class="mb-3"> <i class="la la-bed"></i> 0</h1>
-                                    <p class="mb-0">(เดือนนี้ 0 คน / 0 ครั้ง)</p>
+                                    <h1 class="mb-3"> <i class="la la-bed"></i> <span id="">0</span></h1>
+                                    <p class="mb-0">(เดือนนี้ <span id="">0</span> คน / <span id="">0</span> ครั้ง)</p>
                                 </div>
-                            </div>   
+                            </div>
                         </div>
                     </div>
                     <div class="card-group m-b-30">
@@ -146,10 +139,10 @@
                             <div class="card-body bg-warning text-white">
                                 <div class="text-center">
                                     <h3 class="text-title">X-RAY วันนี้</h3>
-                                    <h1 class="mb-3"> <i class="la la-close"></i> 0</h1>
-                                    <p class="mb-0">(เดือนนี้ 0 คน / 0 ครั้ง)</p>
+                                    <h1 class="mb-3"> <i class="la la-close"></i> <span id="pt_xray_today">0</span></h1>
+                                    <p class="mb-0">(เดือนนี้ <span id="ptm_xray_hn">0</span> คน /<span id="ptm_xray_vn">0</span> ครั้ง)</p>
                                 </div>
-                            </div>   
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -164,7 +157,7 @@
                                     <h1 class="mb-3"> <i class="la la-flask"></i> 0</h1>
                                     <p class="mb-0">(เดือนนี้ 0 คน / 0 ครั้ง)</p>
                                 </div>
-                            </div>   
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -174,10 +167,10 @@
                             <div class="card-body">
                                 <div class="text-center">
                                     <h3 class="text-title">กายภาพบำบัด วันนี้</h3>
-                                    <h1 class="mb-3"> <i class="fa fa-wheelchair"></i> 0</h1>
-                                    <p class="mb-0">(เดือนนี้ 0 คน / 0 ครั้ง)</p>
+                                    <h1 class="mb-3"> <i class="fa fa-wheelchair"></i> <span id="pt_phy_today">0</span></h1>
+                                    <p class="mb-0">(เดือนนี้ <span id="ptm_phy_hn">0</span> คน / <span id="ptm_phy_vn">0</span> ครั้ง)</p>
                                 </div>
-                            </div>   
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -187,10 +180,10 @@
                             <div class="card-body bg-purple text-white">
                                 <div class="text-center">
                                     <h3 class="text-title">แพทย์แผนไทย วันนี้</h3>
-                                    <h1 class="mb-3"> <i class="la la-fist-raised"></i> 0</h1>
-                                    <p class="mb-0">(เดือนนี้ 0 คน / 0 ครั้ง)</p>
+                                    <h1 class="mb-3"> <i class="la la-fist-raised"></i> <span id="pt_ttm_today">0</span></h1>
+                                    <p class="mb-0">(เดือนนี้ <span id="ptm_ttm_hn">0</span> คน / <span id="ptm_ttm_vn">0</span> ครั้ง)</p>
                                 </div>
-                            </div>   
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -200,10 +193,10 @@
                             <div class="card-body">
                                 <div class="text-center">
                                     <h3 class="text-title">ทันตกรรม วันนี้</h3>
-                                    <h1 class="mb-3"> <i class="la la-user-md"></i> 0</h1>
-                                    <p class="mb-0">(เดือนนี้ 0 คน / 0 ครั้ง)</p>
+                                    <h1 class="mb-3"> <i class="la la-user-md"></i>  <span id="pt_dent_today">0</span></h1>
+                                    <p class="mb-0">(เดือนนี้ <span id="ptm_dent_hn">0</span> คน / <span id="ptm_dent_vn">0</span> ครั้ง)</p>
                                 </div>
-                            </div>   
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -216,7 +209,8 @@
                 <div class="col-md-6 d-flex">
                     <div class="card card-table flex-fill">
                         <div class="card-header">
-                            <h3 class="card-title mb-0 text-center"><i class="la la-road"></i> 10 อันดับโรคผู้ป่วยนอก OPD</h3>
+                            <h3 class="card-title mb-0 text-center"><i class="la la-road"></i> 10 อันดับโรคผู้ป่วยนอก OPD
+                            </h3>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
@@ -230,34 +224,34 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @for ($i=0;$i<10;$i++)
-                                            
-                                       
-                                        <tr>
-                                            <td>
-                                                <h4><i class="la la-hashtag"></i><a href="project-view.html">J028</a></h4>
-                                                <small class="block text-ellipsis">
-                                                    <h0 class="text-dark"><i class="la la-caret-square-right"></i> Acute pharyngitis due to other specified organisms</h0>
-                                                
+                                        @for ($i = 0; $i < 10; $i++)
+                                            <tr>
+                                                <td>
+                                                    <h4><i class="la la-hashtag"></i><a href="project-view.html">J028</a>
+                                                    </h4>
+                                                    <small class="block text-ellipsis">
+                                                        <h0 class="text-dark"><i class="la la-caret-square-right"></i>
+                                                            Acute pharyngitis due to other specified organisms</h0>
+
                                                     </small>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <h3><i class="la la-user-tie"></i>
-                                                    0 </h3>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <h3><i class="la la-user-nurse"></i>
-                                                    0</h3>
-                                                </div>
-                                            </td>
-                                            <td class="text-right">
-                                                <h3><i class="la la-user-friends"></i>
-                                                0</h3>
-                                            </td>
-                                        </tr> 
+                                                </td>
+                                                <td>
+                                                    <div>
+                                                        <h3><i class="la la-user-tie"></i>
+                                                            0 </h3>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div>
+                                                        <h3><i class="la la-user-nurse"></i>
+                                                            0</h3>
+                                                    </div>
+                                                </td>
+                                                <td class="text-right">
+                                                    <h3><i class="la la-user-friends"></i>
+                                                        0</h3>
+                                                </td>
+                                            </tr>
                                         @endfor
                                     </tbody>
                                 </table>
@@ -265,7 +259,7 @@
                         </div>
                         <div class="card-footer">
                         </div>
-                       
+
                     </div>
                 </div>
 
@@ -274,7 +268,8 @@
                 <div class="col-md-6 d-flex">
                     <div class="card card-table flex-fill">
                         <div class="card-header">
-                            <h3 class="card-title mb-0 text-center"><i class="la la-folder-open"></i> 10 อันดับโรคผู้ป่วยใน IPD</h3>
+                            <h3 class="card-title mb-0 text-center"><i class="la la-folder-open"></i> 10
+                                อันดับโรคผู้ป่วยใน IPD</h3>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
@@ -288,41 +283,40 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @for ($i=0;$i<10;$i++)
-                                            
-                                       
-                                        <tr>
-                                            <td>
-                                                <h4><i class="la la-hashtag"></i><a href="#">J028</a></h4>
-                                                <small class="block text-ellipsis">
-                                                    <h0 class="text-dark"><i class="la la-caret-square-right"></i> Acute pharyngitis due to other specified organisms</h0>
-                                                
+                                        @for ($i = 0; $i < 10; $i++)
+                                            <tr>
+                                                <td>
+                                                    <h4><i class="la la-hashtag"></i><a href="#">J028</a></h4>
+                                                    <small class="block text-ellipsis">
+                                                        <h0 class="text-dark"><i class="la la-caret-square-right"></i>
+                                                            Acute pharyngitis due to other specified organisms</h0>
+
                                                     </small>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <h3><i class="la la-user-tie"></i>
-                                                    0 </h3>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <h3><i class="la la-user-nurse"></i>
-                                                    0</h3>
-                                                </div>
-                                            </td>
-                                            <td class="text-right">
-                                                <h3><i class="la la-user-friends"></i>
-                                                0</h3>
-                                            </td>
-                                        </tr> 
+                                                </td>
+                                                <td>
+                                                    <div>
+                                                        <h3><i class="la la-user-tie"></i>
+                                                            0 </h3>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div>
+                                                        <h3><i class="la la-user-nurse"></i>
+                                                            0</h3>
+                                                    </div>
+                                                </td>
+                                                <td class="text-right">
+                                                    <h3><i class="la la-user-friends"></i>
+                                                        0</h3>
+                                                </td>
+                                            </tr>
                                         @endfor
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                         <div class="card-footer">
-                   
+
                         </div>
                     </div>
                 </div>
@@ -353,7 +347,10 @@
     </div>
     <!-- /Page Wrapper -->
 @endsection
+@section('js-custom')
 
+    <script src={{ asset('assets/custom/dashboard/dashboard.js') }}></script>
+@endsection
 
 
 {{-- @section('chart-custom')

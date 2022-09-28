@@ -46,126 +46,83 @@
                             <tr>
                                 <td>1</td>
                                 <td>
-                                    <h2 class="table-avatar">
-                                        <a class="avatar avatar-xs" href="profile.html"><img alt=""
-                                                src="assets/img/profiles/avatar-09.jpg"></a>
-                                        <a href="profile.html">อัตราการติดเชื้อในโรงพยาบาล</a>
+                                    <h2>
+                                        
+                                       อัตราการติดเชื้อในโรงพยาบาล
                                     </h2>
                                 </td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><i class="fa fa-close text-danger"></i> </td>
-                                <td><i class="fa fa-close text-danger"></i> </td>
-                                <td><i class="fa fa-close text-danger"></i> </td>
+                                <td><a href="javascript:void(0);">0.00</td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
                             </tr>
                             <tr>
                                 <td>2</td>
                                 <td>
-                                    <h2 class="table-avatar">
-                                        <a class="avatar avatar-xs" href="profile.html"><img alt=""
-                                                src="assets/img/profiles/avatar-09.jpg"></a>
-                                        <a href="profile.html">อัตราการล้างมือก่อนทำหัตถการ</a>
+                                    <h2>
+                                    อัตราการล้างมือก่อนทำหัตถการ
                                     </h2>
                                 </td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><i class="fa fa-close text-danger"></i> </td>
-                                <td><i class="fa fa-close text-danger"></i> </td>
-                                <td><i class="fa fa-close text-danger"></i> </td>
+                                <td><a href="javascript:void(0);">0.00</td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
                             </tr>
                             <tr>
                                 <td>3</td>
                                 <td>
-                                    <h2 class="table-avatar">
-                                        <a class="avatar avatar-xs" href="profile.html"><img alt=""
-                                                src="assets/img/profiles/avatar-09.jpg"></a>
-                                        <a href="profile.html">อัตราการล้างมือหลังทำหัตถการ</a>
+                                    <h2>
+                                       อัตราการล้างมือหลังทำหัตถการ
                                     </h2>
                                 </td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><i class="fa fa-close text-danger"></i> </td>
-                                <td><i class="fa fa-close text-danger"></i> </td>
-                                <td><i class="fa fa-close text-danger"></i> </td>
+                                <td><a href="javascript:void(0);">0.00</td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
                             </tr>
                             <tr>
                                 <td>4</td>
                                 <td>
-                                    <h2 class="table-avatar">
-                                        <a class="avatar avatar-xs" href="profile.html"><img alt=""
-                                                src="assets/img/profiles/avatar-09.jpg"></a>
-                                        <a href="profile.html">อัตราการเกิดอุบัติการณ์ความคลาดเลื่อนทางยาที่มีความ</a>
+                                    <h2>
+                                       อัตราการเกิดอุบัติการณ์ความคลาดเลื่อนทางยาที่มีความ
                                     </h2>
                                 </td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><a href="javascript:void(0);" data-toggle="modal" data-target="#attendance_info"><i
-                                            class="fa fa-check text-success"></i></a></td>
-                                <td><i class="fa fa-close text-danger"></i> </td>
-                                <td><i class="fa fa-close text-danger"></i> </td>
-                                <td><i class="fa fa-close text-danger"></i> </td>
+                                <td><a href="javascript:void(0);">0.00</td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
+                                    <td><a href="javascript:void(0);">0.00</a></td>
                             </tr>
                             <tr>
                                 <td>5</td>
