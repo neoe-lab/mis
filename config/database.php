@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'his'),
 
     /*
     |--------------------------------------------------------------------------
@@ -67,7 +67,7 @@ return [
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
             'prefix_indexes' => true,
-            'strict' => true,
+            'strict' => false,
             'engine' => null,
             'options' => extension_loaded('pdo_mysql') ? array_filter([
                 PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
@@ -81,6 +81,25 @@ return [
             'database' => env('DB_DATABASE_HDC', 'hdc'),
             'username' => env('DB_USERNAME_HDC', 'forge'),
             'password' => env('DB_PASSWORD_HDC', ''),
+            'unix_socket' => env('DB_SOCKET', ''),
+            'charset' => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix' => '',
+            'prefix_indexes' => true,
+            'strict' => true,
+            'engine' => null,
+            'options' => extension_loaded('pdo_mysql') ? array_filter([
+                PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+            ]) : [],
+        ],
+        'hosxp_pcu' => [
+            'driver' => 'mysql',
+            'url' => env('DATABASE_URL'),
+            'host' => env('DB_HOST_HOSXP_PCU', '127.0.0.1'),
+            'port' => env('DB_PORT_HOSXP_PCU', '3306'),
+            'database' => env('DB_DATABASE_HOSXP_PCU', 'hosxp_pcu'),
+            'username' => env('DB_USERNAME_HOSXP_PCU', 'forge'),
+            'password' => env('DB_PASSWORD_HOSXP_PCU', ''),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',

@@ -29,8 +29,9 @@
                             <div class="card-body">
                                 <h4 class="card-title text-center"><i class="la la-folder"></i> สถิติผู้รับบริการ IPD วันนี้
                                 </h4>
+                                <hr>
                                 <div class="statistics">
-                                    <div class="row">
+                                    {{-- <div class="row">
                                         <div class="col-md-6 col-6 text-center">
                                             <div class="stats-box mb-4">
                                                 <p>จำนวนเตียงทั้งหมด</p>
@@ -43,30 +44,40 @@
                                                 <h3>0</h3>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                         
                                 <div>
                                     <h4 class="mb-1"><i class="fa fa-dot-circle-o text-primary mr-2"></i>รับใหม่วันนี้
-                                        <span class="float-right">0</span>
+                                        <span id="admit_new" class="float-right">0</span>
                                     </h4>
                                     <h4 class="mb-1"><i class="fa fa-dot-circle-o text-secondary mr-2"></i>จำหน่ายวันนี้
-                                        <span class="float-right">0</span>
+                                        <span id="dchtoday" class="float-right">0</span>
                                     </h4>
-                                    <h4 class="mb-1"><i class="fa fa-dot-circle-o text-purple mr-2"></i>admit อยู่ <span
-                                            class="float-right">0</span></h4>
-                                    <h4 class="mb-1"><i class="fa fa-dot-circle-o text-success mr-2"></i>สิทธ์ UC <span
+                                    <h4 class="mb-1"><i class="fa fa-dot-circle-o text-purple mr-2"></i>admit อยู่ 
+                                        <span id="admitcount-total" class="float-right">0</span></h4>
+                                    {{-- <h4 class="mb-1"><i class="fa fa-dot-circle-o text-success mr-2"></i>สิทธ์ UC <span
                                             class="float-right">0</span></h4>
                                     <h4 class="mb-1"><i class="fa fa-dot-circle-o text-danger mr-2"></i>สิทธิ์อื่นๆ <span
                                             class="float-right">0</span></h4>
-                                    <h4 class="mb-1"><i class="fa fa-dot-circle-o text-warning mr-2"></i>เตียงว่าง <span
-                                            class="float-right">0</span></h4>
+                                    <h4 class="mb-1"><i class="fa fa-dot-circle-o text-warning mr-2"></i>เตียงว่าง 
+                                        <span id="bedcount-wblank" class="float-right">0</span></h4>
                                     <h4 class="mb-1"><i class="fa fa-dot-circle-o text-info mr-2"></i>สิทธิ์ชำระและเบิกได้
                                         <span class="float-right">0</span>
                                     </h4>
                                     <h4 class="mb-1"><i class="fa fa-dot-circle-o text-dark mr-2"></i>อัตราการครองเตียง
                                         <span class="float-right">0</span>
-                                    </h4>
+                                    </h4> --}}
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    
+                                    
                                 </div>
                             </div>
                         </div>
@@ -75,7 +86,7 @@
 
                 <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
                     <div class="card-group m-b-30">
-                        <a href="{{ route('detail-visit') }}" class="card">
+                        <a href="#" class="card">
                             <div class="card-body bg-success text-white">
                                 <div class="text-center">
                                     <h3 class="text-title">ผู้รับบริการ วันนี้</h3>
@@ -86,7 +97,7 @@
                         </a>
                     </div>
                     <div class="card-group m-b-30">
-                        <a href="{{ route('detail-er') }}" class="card">
+                        <a href="#" class="card">
                             <div class="card-body bg-danger text-white">
                                 <div class="text-center">
                                     <h3 class="text-title">ER วันนี้</h3>
@@ -99,7 +110,7 @@
                 </div>
                 <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
                     <div class="card-group m-b-30">
-                        <a href="{{ route('detail-opd') }}" class="card">
+                        <a href="#" class="card">
                             <div class="card-body bg-info text-white">
                                 <div class="text-center">
                                     <h3 class="text-title">OPD วันนี้</h3>
@@ -114,8 +125,8 @@
                             <div class="card-body bg-info text-white">
                                 <div class="text-center">
                                     <h3 class="text-title">PCU วันนี้</h3>
-                                    <h1 class="mb-3"> <i class="la la-hospital-o"></i><span id="">0</span></h1>
-                                    <p class="mb-0">(เดือนนี้ <span id="">0</span> คน / <span id="">0</span> ครั้ง)</p>
+                                    <h1 class="mb-3"> <i class="la la-hospital-o"></i><span id="pt_pcu_today">0</span></h1>
+                                    <p class="mb-0">(เดือนนี้ <span id="ptm_pcu_hn">0</span> คน / <span id="ptm_pcu_vn">0</span> ครั้ง)</p>
                                 </div>
                             </div>
                         </div>
@@ -127,9 +138,9 @@
                         <div class="card">
                             <div class="card-body bg-warning text-white">
                                 <div class="text-center">
-                                    <h3 class="text-title">Admit วันนี้</h3>
-                                    <h1 class="mb-3"> <i class="la la-bed"></i> <span id="">0</span></h1>
-                                    <p class="mb-0">(เดือนนี้ <span id="">0</span> คน / <span id="">0</span> ครั้ง)</p>
+                                    <h3 class="text-title">IPD วันนี้</h3>
+                                    <h1 class="mb-3"> <i class="la la-bed"></i> <span id="pt_ipd_today">0</span></h1>
+                                    <p class="mb-0">(เดือนนี้ <span id="ptm_ipd_hn">0</span> คน / <span id="ptm_ipd_an">0</span> ครั้ง)</p>
                                 </div>
                             </div>
                         </div>
@@ -154,8 +165,9 @@
                             <div class="card-body bg-dark text-white">
                                 <div class="text-center">
                                     <h3 class="text-title">LAB วันนี้</h3>
-                                    <h1 class="mb-3"> <i class="la la-flask"></i> 0</h1>
-                                    <p class="mb-0">(เดือนนี้ 0 คน / 0 ครั้ง)</p>
+                                    <h1 class="mb-3"> <i class="la la-flask"></i> <span id="form_lab_today">0</span></h1>
+                                    {{-- <p class="mb-0">(เดือนนี้ 0 คน / 0 ครั้ง)</p> --}}
+                                    <br>
                                 </div>
                             </div>
                         </div>
@@ -203,19 +215,21 @@
             </div>
             {{-- end section 1 --}}
 
+            @include('pages.home.sections.section_dead')
+
 
             {{-- start section 2 --}}
             <div class="row">
                 <div class="col-md-6 d-flex">
                     <div class="card card-table flex-fill">
                         <div class="card-header">
-                            <h3 class="card-title mb-0 text-center"><i class="la la-road"></i> 10 อันดับโรคผู้ป่วยนอก OPD
+                            <h3 class="card-title mb-0 text-center"><i class="la la-road"></i> 10 อันดับโรคผู้ป่วยนอก OPD เดือนนี้
                             </h3>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
-                                <table class="table custom-table mb-0">
-                                    <thead>
+                                <table id="top_diag_opd" class="table custom-table mb-0">
+                                    {{-- <thead>
                                         <tr>
                                             <th>ICD10/Diag</th>
                                             <th>ชาย</th>
@@ -253,7 +267,7 @@
                                                 </td>
                                             </tr>
                                         @endfor
-                                    </tbody>
+                                    </tbody> --}}
                                 </table>
                             </div>
                         </div>
@@ -262,19 +276,17 @@
 
                     </div>
                 </div>
-
-
                 {{-- 222 --}}
                 <div class="col-md-6 d-flex">
                     <div class="card card-table flex-fill">
                         <div class="card-header">
                             <h3 class="card-title mb-0 text-center"><i class="la la-folder-open"></i> 10
-                                อันดับโรคผู้ป่วยใน IPD</h3>
+                                อันดับโรคผู้ป่วยใน IPD เดือนนี้</h3>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
-                                <table class="table custom-table mb-0">
-                                    <thead>
+                                <table id="top_diag_ipd" class="table custom-table mb-0">
+                                    {{-- <thead>
                                         <tr>
                                             <th>ICD10/Diag</th>
                                             <th>ชาย</th>
@@ -311,7 +323,7 @@
                                                 </td>
                                             </tr>
                                         @endfor
-                                    </tbody>
+                                    </tbody> --}}
                                 </table>
                             </div>
                         </div>
@@ -322,22 +334,7 @@
                 </div>
             </div>
             {{-- end secttion 2 --}}
-
-            {{-- start chart --}}
-            {{-- <div class="row">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-6 text-center d-flex">
-                            <div class="card flex-fill">
-                                <div class="card-body"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                                    <h3 class="card-title">Overview</h3>
-                                    <canvas id="lineChart" style="display: block; width: 096px; height: 298px;" class="chartjs-render-monitor" width="096" height="298"></canvas>
-                                </div>
-                            </div>
-                        </div>   
-                    </div>
-                </div>
-            </div> --}}
+           
 
 
 
@@ -353,6 +350,4 @@
 @endsection
 
 
-{{-- @section('chart-custom')
-@include('pages.charts.visit-odp')
-@endsection --}}
+

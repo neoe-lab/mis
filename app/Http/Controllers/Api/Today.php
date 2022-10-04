@@ -6,26 +6,41 @@ use App\Http\Controllers\api\details\opd;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use PhpParser\Node\Expr\FuncCall;
 
 class Today extends Controller
 {
     public function index()
-    {   
+    {
         //################  connection database hosxp #################
         $hosxp_db = DB::connection('hosxp');
+        $hosxp_pcu_db = DB::connection('hosxp_pcu');
+
         // ########################################################
 
         $pt_visit = $this->pt_visit($hosxp_db);
         $pt_opd = $this->pt_opd($hosxp_db);
         $pt_phy = $this->pt_phy($hosxp_db);
-        $pt_dent =$this->pt_dent($hosxp_db);
-        $pt_ipd =$this->pt_ipd($hosxp_db);
-        $pt_ttm =$this->pt_ttm($hosxp_db);
-        $pt_er =$this->pt_er($hosxp_db);
-        $pt_or =$this->pt_or($hosxp_db);
-        $pt_xray =$this->pt_xray($hosxp_db);
-
-        return compact("pt_opd","pt_phy",'pt_dent','pt_ipd','pt_ttm','pt_er','pt_or','pt_xray','pt_visit');
+        $pt_dent = $this->pt_dent($hosxp_db);
+        $pt_ipd = $this->pt_ipd($hosxp_db);
+        $pt_ttm = $this->pt_ttm($hosxp_db);
+        $pt_er = $this->pt_er($hosxp_db);
+        $pt_or = $this->pt_or($hosxp_db);
+        $pt_xray = $this->pt_xray($hosxp_db);
+        $admit_new = $this->ipt_admitoday_new($hosxp_db);
+        $dchtoday = $this->ipt_dchtoday($hosxp_db);
+        $admitcount = $this->ipt_admit_total_to_day($hosxp_db);
+        $pt_pcu = $this->pt_pcu($hosxp_pcu_db);
+        $top_diag_opd = $this->top_diag_opd($hosxp_db);
+        $top_diag_ipd = $this->top_diag_ipd($hosxp_db);
+        $death_opd = $this->death_opd($hosxp_db);
+        $death_ipd = $this->death_ipd($hosxp_db);
+        $form_lab = $this->form_lab($hosxp_db);
+        $opd = [
+            "death_opd" => $death_opd, 
+            "death_ipd" => $death_ipd      
+        ];
+        return compact("pt_opd", "pt_phy", 'pt_dent', 'pt_ipd', 'pt_ttm', 'pt_er', 'pt_or', 'pt_xray', 'pt_visit','pt_pcu','admitcount','dchtoday','admit_new','top_diag_opd','top_diag_ipd','opd','form_lab');
     }
 
 
@@ -81,7 +96,7 @@ class Today extends Controller
         ,COUNT(DISTINCT IF(service_date = DATE_FORMAT(NOW(),'%Y-%m-%d'),vn,NULL)) AS pt_ttm_today
         FROM health_med_service
         WHERE service_date BETWEEN DATE_FORMAT(NOW(),'%Y-%m-01') AND DATE_FORMAT(NOW(),'%Y-%m-%d')");
-            #AND in_hospcode_service = 'Y' ";
+        #AND in_hospcode_service = 'Y' ";
         return $result;
     }
 
@@ -106,12 +121,89 @@ class Today extends Controller
     }
     public function pt_xray($db)
     {
-        $result = $db->select("SELECT COUNT(DISTINCT hn) AS ptm_xray_hn,COUNT(vn) AS ptm_xray_vn
-        ,COUNT(IF(examined_date = DATE_FORMAT(NOW(),'%Y-%m-%d'),vn,NULL)) AS pt_xray_today
-        FROM xray_report
-        WHERE examined_date BETWEEN DATE_FORMAT(NOW(),'%Y-%m-01') AND DATE_FORMAT(NOW(),'%Y-%m-%d')");
+        $result = $db->select("SELECT COUNT(DISTINCT hn) AS ptm_xray_hn
+		,COUNT(vn) AS ptm_xray_vn
+        ,COUNT(IF(DATE_FORMAT(order_date_time,'%Y-%m-%d') = DATE_FORMAT(NOW(),'%Y-%m-%d'),vn,NULL)) AS pt_xray_today
+        FROM xray_head
+        WHERE DATE_FORMAT(order_date_time,'%Y-%m-%d') BETWEEN DATE_FORMAT(NOW(),'%Y-%m-01') AND DATE_FORMAT(NOW(),'%Y-%m-%d') ");
         return $result;
     }
 
- 
+    public function pt_pcu($db){
+        $result = $db->select("SELECT COUNT(DISTINCT hn) AS ptm_pcu_hn,COUNT(DISTINCT vn) AS ptm_pcu_vn
+        ,COUNT(DISTINCT IF(vstdate = DATE_FORMAT(NOW(),'%Y-%m-%d'),vn,NULL)) AS pt_pcu_today
+        FROM ovst
+        WHERE vstdate BETWEEN DATE_FORMAT(NOW(),'%Y-%m-01') AND DATE_FORMAT(NOW(),'%Y-%m-%d')");
+        return $result;
+    }
+    // public function pt_admit($db){
+    //     $result = $db->select("SELECT COUNT(*) AS admittoday FROM ipt WHERE regdate = DATE_FORMAT(NOW(),'%Y-%m-%d')");
+    //     return $result;
+    // }
+    public function ipt_admitoday_new($db){
+        $result = $db->select("SELECT COUNT(*) AS admittoday FROM ipt WHERE regdate = DATE_FORMAT(NOW(),'%Y-%m-%d')");
+        return $result;
+    }
+    public function ipt_dchtoday($db){
+        $result = $db->select("SELECT COUNT(*) AS dchtoday FROM ipt WHERE dchdate = DATE_FORMAT(NOW(),'%Y-%m-%d')");
+        return $result;
+    }
+    public function ipt_admit_total_to_day($db){
+        $result = $db->select("SELECT count(an) total_admit FROM ipt 
+        WHERE  regdate BETWEEN DATE_FORMAT(NOW(),'%Y-01-01') AND DATE_FORMAT(NOW(),'%Y-%m-%d')
+        AND dchdate IS NULL");
+        return $result;
+    }
+    public function top_diag_opd($db){
+        $result = $db->select("SELECT count(v.hn) AS count_person ,v.pdx,i.name as diag_name
+        FROM vn_stat v
+        LEFT JOIN icd101 i on i.code=v.pdx
+        WHERE v.vstdate BETWEEN DATE_FORMAT(NOW(),'%Y-%m-01') AND DATE_FORMAT(NOW(),'%Y-%m-%d')
+        AND v.pdx <> ''
+        GROUP BY v.pdx
+        ORDER BY count_person DESC
+        LIMIT 10");
+        return $result;
+
+    }
+    public function top_diag_ipd($db){
+        $result = $db->select("SELECT count(v.hn) AS count_person ,v.pdx,i.name as diag_name
+        FROM an_stat v
+        LEFT JOIN icd101 i on i.code=v.pdx
+        WHERE v.dchdate BETWEEN DATE_FORMAT(NOW(),'%Y-%m-01') AND DATE_FORMAT(NOW(),'%Y-%m-%d') AND (v.pdx is not null or v.pdx<> '')
+        GROUP BY v.pdx
+        ORDER BY count_person desc
+        LIMIT 10");
+        return $result;
+    }
+    public function death_opd($db){
+        $result = $db->select("SELECT d.death_diag_1 as death_diag, i.name as diag_name, COUNT(d.hn)sum_death FROM death d
+        JOIN icd101 i ON d.death_diag_1 = i.code
+        WHERE d.death_date BETWEEN DATE_SUB(DATE_FORMAT(NOW(),'%Y-10-01'), INTERVAL 1 YEAR ) AND DATE_FORMAT(NOW(),'%Y-%m-%d')
+        AND d.an =''
+        GROUP BY d.death_diag_1
+        ORDER BY sum_death DESC
+        LIMIT 5");
+        return $result;
+    }
+
+    public function death_ipd($db){
+        $result = $db->select("SELECT LEFT(idx.icd10,3) as death_diag, i.name as diag_name, COUNT(ip.an)sum_death FROM ipt ip
+        LEFT OUTER JOIN iptdiag idx ON ip.an=idx.an
+        LEFT OUTER JOIN icd101 i ON idx.icd10 = i.code 
+        WHERE ip.dchdate BETWEEN DATE_SUB(DATE_FORMAT(NOW(),'%Y-10-01'), INTERVAL 1 YEAR ) AND DATE_FORMAT(NOW(),'%Y-%m-%d')
+        AND ip.dchtype IN ('08', '09')
+        AND idx.diagtype='1'
+        GROUP BY LEFT(idx.icd10,3)
+        ORDER BY sum_death DESC
+        LIMIT 5");
+        return $result;
+    }
+    public function form_lab($db){
+        $result = $db->select("SELECT count(DISTINCT form_name,hn,order_time) as form_lab_today
+        FROM lab_head
+        WHERE order_date BETWEEN DATE_FORMAT(NOW(),'%Y-%m-%d') AND DATE_FORMAT(NOW(),'%Y-%m-%d')
+        ");
+        return $result;
+    }
 }
