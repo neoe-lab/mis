@@ -340,4 +340,6 @@ $(document).ready(function() {
 $(window).on('load', function() {
     $('#loader').delay(100).fadeOut('slow');
     $('#loader-wrapper').delay(0).fadeOut('slow');
+    // $('#loader');
+    // $('#loader-wrapper');
 });

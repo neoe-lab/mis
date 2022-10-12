@@ -1,4 +1,4 @@
-const api_url = "http://localhost:8000/api/today";
+const api_url = "http://192.168.46.152:8100/api/today";
 // Defining async function
 async function getapi(url) {
 
@@ -158,3 +158,11 @@ function death(data) {
     tableDeathOpd += '<tbody>';
     return tableDeathOpd;
 }
+
+
+// Loader
+
+// function loader() {
+//     $('#loader').delay(100).fadeOut('slow');
+//     $('#loader-wrapper').delay(0).fadeOut('slow');
+// }

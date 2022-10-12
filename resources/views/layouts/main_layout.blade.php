@@ -8,7 +8,7 @@
 <body class="mini-sidebar">
     <div class="main-wrapper">
         {{-- start loader --}}
-        @include('includes.loader')
+        {{-- @include('includes.loader') --}}
         {{-- end loader --}}
 
         {{-- start navbar --}}

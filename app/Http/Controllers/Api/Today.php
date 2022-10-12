@@ -168,12 +168,12 @@ class Today extends Controller
     }
     public function top_diag_ipd($db){
         $result = $db->select("SELECT count(v.hn) AS count_person ,v.pdx,i.name as diag_name
-        FROM an_stat v
-        LEFT JOIN icd101 i on i.code=v.pdx
-        WHERE v.dchdate BETWEEN DATE_FORMAT(NOW(),'%Y-%m-01') AND DATE_FORMAT(NOW(),'%Y-%m-%d') AND (v.pdx is not null or v.pdx<> '')
-        GROUP BY v.pdx
-        ORDER BY count_person desc
-        LIMIT 10");
+        from an_stat v
+        left join icd101 i on i.code=v.pdx
+        where v.dchdate between DATE_FORMAT(NOW(),'%Y-%m-01') AND DATE_FORMAT(NOW(),'%Y-%m-%d') and (i.name is not null or i.name <> '') and (v.pdx is not null or v.pdx <> '')
+        group by v.pdx
+        order by count_person desc
+        limit 10");
         return $result;
     }
     public function death_opd($db){

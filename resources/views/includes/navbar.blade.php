@@ -68,7 +68,7 @@
             <a href="#" class="dropdown-toggle nav-link">
                 <span class="user-img"><img src={{ asset("assets/img/profiles/avatar-01.jpg")}} alt="">
                     <span class="status online"></span></span>
-                <span>เข้าสู่ระบบ</span>
+                <span></span>
             </a>
           
         </li>
